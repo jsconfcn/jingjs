@@ -37,10 +37,10 @@ function i18n(lang) {
   // iterate over data in #i18n that matches language 
   $('#i18n [lang="' + lang + '"]').each(function () {
     var i18n_key = $(this).data('i18n');
-    var i18n_text = $(this).text();
+    var i18n_text = $(this).html();
     $('[data-i18n="'+ i18n_key +'"]:not(#i18n > span)').each(function() {
       // update site text and language
-      $(this).text(i18n_text);
+      $(this).html(i18n_text);
       $(this).attr('lang', lang);
     });
   });

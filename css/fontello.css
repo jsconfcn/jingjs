@@ -74,7 +74,9 @@
 .icon-twitter:before { content: '\e801'; } 
 .icon-github-circled:before { content: '\e800'; }
 .icon-mail-alt:before { content: '\e802'; }
+.icon-weibo:before { content: '\e803'; }
 
 .iconsmall-twitter:before { content: '\e801'; } 
 .iconsmall-github-circled:before { content: '\e800'; }
 .iconsmall-mail-alt:before { content: '\e802'; }
+.iconsmall-weibo:before { content: '\e803'; }

@@ -23,6 +23,10 @@ I'll share code and practices that are applicable immediately to any JavaScript 
 * Control Flow - Callbacks vs Promises
 * Error handling - Domains?
 
+When asynchronous style finally makes sense:
+
+![async](http://media.tumblr.com/f9b64e7703d0fd6d8724e1429ede4991/tumblr_inline_mniepuRpmh1qz4rgp.gif)
+
 Speaker Bio
 -----------
 

@@ -30,3 +30,4 @@ Links
 * Blog: http://www.testdrivenjs.com
 * Company: http://www.domo.com
 * Github: http://github.com/joeeames & http://github.com/iammerrick
+* Twitter: @iammerrick @josepheames

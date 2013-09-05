@@ -8,7 +8,7 @@ Optimizing JS Games: Hidden Classes, Inline Caches and Dictionary Mode
 Description
 -----------
 
-The main theme about this talk will be JS performance in JS games, or any JS applications in which DOM access isn't the bottleneck. As a developer of a game-targed browser engine [Shpinx](), I'd like to talk about concepts and stragies we use while optimizing games ([不江湖](http://www.bujianghu.com/), from fps 30 to 50) and canvas library (Cocos2d-html5, notably pull request [#1015](https://github.com/cocos2d/cocos2d-html5/pull/1015)).
+The main theme about this talk will be JS performance in JS games, or any JS applications in which DOM access isn't the bottleneck. As a developer of a game-targted browser engine [Shpinx](), I'd like to talk about concepts and stragies we use while optimizing games ([不江湖](http://www.bujianghu.com/), from fps 30 to 50) and canvas library (Cocos2d-html5, notably pull request [#1015](https://github.com/cocos2d/cocos2d-html5/pull/1015)).
 
 In addition to the concepts of hidden classes and inline caches, which were already discussed in some of the excellent talks like [Vyacheslav Egorov's](http://s3.mrale.ph/nodecamp.eu/#41), this talk focuses more on [dictionary mode](https://github.com/oupengsoftware/v8/wiki/Dictionary-mode) and common ways how JS objects fall into it. Some demos of the [tools](https://github.com/oupengsoftware/cocos2d-html5/wiki/Hidden-Class) for examining these internals might also be provided.
 

@@ -1,107 +1,5 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>京JS 2013 - A two-day conference in Beijing for the JavaScript and Node.js community</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-          body {
-            padding-top: 60px;
-            padding-bottom: 40px;
-          }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato|Russo+One|Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/fontello.css">
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script>
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////    //////////////////////////////////////
-        //////////////////////////////////////     ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        //////////////////////////////////////                /////////////     ////////
-        /////////////////////////////                          ////////////     ////////
-        ////////////////////////                ///////////      //////////     ////////
-        //////////////////////////        /////////////////////////////////     ////////
-        ////////////////////////////  //////////////   ////////////////////     ////////
-        ///////////////////////////////////////          //////////////////     ////////
-        ////////////////////////////////                  ///////      ////     ////////
-        ////////////////////////////////       //////     ////////              ////////
-        /////////////////////////////////   ////////      /////////           //////////
-        /////////////////////////////////   ////////     ////////////       ////////////
-        /////////////////////////////////    ///////    ////////////////////////////////
-        //////////////////////////////////             /////////////////////////////////
-        //////////////////////////////////            ///////////////        ///////////
-        ///////////////////////////////////        ////////////////            /////////
-        ///////////////////////////////////////    ///////////////      //     /////////
-        ///////////////////////////////////////    ///////////////    /////    /////////
-        ///////////////////////////////   /////    ///    ////////     /////////////////
-        //////////////////////////////   //////    ////    ////////       //////////////
-        /////////////////////////////    //////    /////    ////////         ///////////
-        ////////////////////////////     //////    //////    /////////         /////////
-        ////////////////////////////    ///////    ///////   /////////////      ////////
-        ////////////////////////////    //////     ////////   /////////////     ////////
-        ////////////////////////////    ////       //////////////    ///////    ////////
-        //////////////////////////////////////     //////////////      ///      ////////
-        //////////////////////////////////////     ///////////////             /////////
-        ///////////////////////////////////////   //////////////////         ///////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        </script>
-    </head>
-    <body onload="initialize();">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div class="container">
-          <div class="row">
-            <div class="span2">
-              <a href="index.html"><img src="img/jingjs.jpg"></a>
-            </div>
-            <div class="span1"></div>
-            <div class="span7">
-              <h1><span data-i18n="conf-name">京JS</span> 2013 <small><span data-i18n="conf-date">11月9-10日</span></small>
-              </h1>
-              <p><span lang="zh-cn" data-i18n="conf-tagline">一个二天的为中国JavaScript和Node.js研发者社区举办的会议在北京举行</span></p>
-           </div>
-            <div class="span1 pull-right">
-              <p><a onclick="i18n('en-us');" href="javascript:void(0);">EN</a> / <a onclick="i18n('zh-cn');" href="javascript:void(0);">中文</a></p>
-            </div>
-          </div>
-          <div class="row">
-            <p>&nbsp;</p>
-          </div>
-
-          
+{>layout/}
+{<body}
           <div class="row">
             <div class="span12">
               <h2>Information</h2>
@@ -338,29 +236,8 @@
               </ul>
             </div>
           </div>
-
-          
-          <div class="row"><div class="span12"><hr></div></div>
-          <footer>
-            <span>&copy; 京JS - Built with love and passion </span>
-            <span class="pull-right">
-              <span class="social-iconsmall"><a href="https://github.com/jsconfcn" class="iconsmall-github-circled" target="_blank"></a></span>
-              <span class="social-iconsmall"><a href="http://weibo.com/jingjs2013" class="iconsmall-weibo" target="_blank"></a></span>
-              <span class="social-iconsmall"><a href="https://twitter.com/jingjsconf" class="iconsmall-twitter" target="_blank"></a></span>
-              <span class="social-iconsmall"><a class="social-link" href="http://webchat.freenode.net?channels=jingjs">#jingjs</a></span>
-              <span>&nbsp;</span>
-              <span class="social-iconsmall"><a class="social-link" href="code-of-conduct.html">Code Of Conduct</a></span>
-            </span>
-          </footer>
-        </div> <!-- /container -->
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/i18n.js"></script>
-        
-        
+{/body}
+{<scripts}
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
         <!-- Google Maps -->
@@ -422,28 +299,8 @@
             map.setMapTypeId('venue');
           }
         </script>
-
-        
-        <!-- Google Analytics -->
-        <script>
-            var _gaq=[['_setAccount','UA-41949906-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-
-        <!-- Internationalization Data -->
-        <span id="i18n" style="display:none; visibility:hidden;">
-          <span lang="zh-cn" data-i18n="conf-name">京JS</span>
-          <span lang="en-us" data-i18n="conf-name">JingJS</span>
-
-          <span lang="zh-cn" data-i18n="conf-date">11月9-10日</span>
-          <span lang="en-us" data-i18n="conf-date">9-10, November</span>
-
-          <span lang="zh-cn" data-i18n="conf-tagline">一个在北京举办的为期二天，为中国JavaScript和Node.js研发者社区举办的国际性技术大会</span>
-          <span lang="en-us" data-i18n="conf-tagline">A two day conference in Beijing for the Chinese JavaScript and Node.js community</span>
-
-          
+{/scripts}
+{<i18n}
           <span lang="en-us" data-i18n="conf-description">
             <strong>京JS 2013</strong> is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.
           </span>
@@ -563,20 +420,4 @@
 
           <span lang="en-us" data-i18n="conf-team">Team</span>
           <span lang="zh-cn" data-i18n="conf-team">大会组织者</span>
-
-        </span>
-
-        <script>
-          // called via body.onload
-          function initialize() { 
-            initMaps();
-            // internationalize w/ default language
-            i18n(navigator.language || navigator.userLanguage);
-          }
-        </script>
-    </body>
-</html>
-
-
-
-
+{/i18n}

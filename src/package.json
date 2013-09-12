@@ -1,0 +1,10 @@
+{
+  "name": "jingjs-website",
+  "version": "0.1.0",
+  "repository": "http://github.com/jsconfcn/jingjs",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-dust-html": "",
+    "dustjs-linkedin": ""
+  }
+}

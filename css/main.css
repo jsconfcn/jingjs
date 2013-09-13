@@ -1,5 +1,7 @@
-body { 
+body {
   border: 30px solid #ffdd00;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 h1, h2, h3, h4, h5, h6, h7 {
@@ -10,12 +12,12 @@ h1, h2, h3, h4, h5, h6, h7 {
   text-shadow: 0px 1px #010101;
 */}
 
-h2 { 
+h2 {
   padding: 5px;
   padding-left: 0px;
 }
 
-hr.purple { 
+hr.purple {
   min-height: 5px;
   background-color: purple;
   margin-top: -15px;
@@ -33,45 +35,45 @@ body {
   }
 }
 @media (min-width: 980px) and (max-width: 1070px) {
-  .span12 { 
+  .span12 {
     max-width: 860px;
   }
 }
 
 @media (min-width: 980px) and (max-width: 1199px) {
-  .container { 
+  .container {
     margin-left: 40px;
     margin-top: 0;
   }
-/*  h2 { 
+/*  h2 {
       margin-right: 80px;
   }
 */}
 
 
 @media (min-width: 768px) and (max-width: 979px) {
-  .container { 
+  .container {
     margin-left: 40px;
     margin-top: 40px;
   }
-/*  h2 { 
+/*  h2 {
       margin-right: 80px;
   }
 */}
 
 @media (min-width: 480px) and (max-width: 767px) {
-  .container { 
+  .container {
     margin-left: 0px;
     margin-top: 20px;
   }
-  h1 small { 
+  h1 small {
     display: block;
     margin-top: 5px;
   }
 }
 
 @media (max-width: 480px) {
-  .container { 
+  .container {
     margin-left: 0px;
     margin-top: 20px;
   }
@@ -101,7 +103,7 @@ body {
   min-height: 60px;
   vertical-align: middle;
 }
-.social-icon a.social-link { 
+.social-icon a.social-link {
   line-height: 60px;
   font-size: 30px;
 }
@@ -124,7 +126,7 @@ body {
   min-height: 30px;
   vertical-align: middle;
 }
-.social-iconsmall a.social-link { 
+.social-iconsmall a.social-link {
   line-height: 30px;
 }
 .social-iconsmall a {

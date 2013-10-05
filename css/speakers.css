@@ -1,0 +1,200 @@
+/* General grid styles */
+.grid {
+  list-style: none;
+  padding: 0 0 50px 0;
+  margin: 0;
+}
+
+/* Clear floats */
+.grid:before, 
+.grid:after { 
+  content: " "; 
+  display: table; 
+}
+
+.grid:after { 
+  clear: both; 
+}
+
+/* grid item */
+.grid li {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.people .grid li {
+  height: 420px;
+  padding: 0 5px 5px 5px;
+}
+
+/* anchor style */
+.grid li > a {
+  display: block;
+  height: 100%;
+  font-weight: 300;
+  -webkit-transition: background 0.2s;
+  -moz-transition: background 0.2s;
+  transition: background 0.2s;
+}
+.grid li a h3 {
+  font-weight: 300;
+}
+
+.people .grid li > a {
+  color: #505255;
+}
+
+/* the icon with pseudo class for icon font */
+.icon {
+  display: block;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+  min-height: 14em;
+}
+.grid img {
+  max-width: 100%;
+  max-height: 14em;
+  width: auto;
+  height: auto;
+}
+
+.icon:before {
+  font-size: 14em;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* title element */
+.grid .title {
+  margin: 20px 0 10px 0;
+  padding: 20px 0 0 0;
+  font-size: 2em;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  transition: transform 0.2s;
+}
+
+.grid .title:before {
+  content: '';
+  position: absolute;
+  background: #F14E42;
+  width: 160px;
+  max-width: 100%;
+  height: 6px;
+  top: 0px;
+  left: 50%;
+  margin: -10px 5px 0 -80px;
+  -webkit-transition: margin-top 0.2s; /* top or translate does not seem to work in Firefox */
+  -moz-transition: margin-top 0.2s;
+  transition: margin-top 0.2s;
+}
+
+.grid .category {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1px;
+  color: #fff;
+  -webkit-transform: translateY(10px);
+  -moz-transform: -moz-translateY(10px);
+  -ms-transform: -ms-translateY(10px);
+  transform: translateY(10px);
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  -webkit-transition: transform 0.3s, opacity 0.2s;
+}
+
+.grid li:hover .category,
+.touch .grid li .category {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+/* Hover styles */
+
+.people .grid li > a:hover {
+  background: #F14E42;
+  border-radius: 10px;
+}
+
+.people .grid li > a:hover .icon {
+  -webkit-transform: translateY(10px);
+  -moz-transform: translateY(10px);
+  -ms-transform: translateY(10px);
+  transform: translateY(10px);
+}
+
+.people .grid li > a:hover .icon:before,
+.grid li > a:hover .title {
+  color: #fff;
+}
+
+.people .grid li > a:hover .title {
+  -webkit-transform: translateY(-30px);
+  -moz-transform: translateY(-30px);
+  -ms-transform: translateY(-30px);
+  transform: translateY(-30px);
+}
+
+.people .grid li > a:hover .title:before {
+  background: #fff;
+  margin-top: 80px;
+}
+
+
+@media screen and (max-width: 62.75em) {
+  .grid li {
+      width: 50%;
+  }
+}
+
+@media screen and (max-width: 41.6em) { 
+  .grid li {
+    width: 100%;
+  }
+  .grid img {
+    max-height: 16em;
+  }
+  .grid {
+    font-size: 80%;
+  }
+  .people .grid li > a:hover .title {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+  .people .grid li > a:hover .title:before {
+    background: #fff;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 25em) { 
+  .grid {
+    font-size: 60%;
+  }
+
+  .grid .category {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 18em) {   
+  .grid .title:before {
+    width: 25em;
+    left: 0;
+    margin: -10px 0 0 0;
+  }
+}

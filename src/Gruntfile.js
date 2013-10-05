@@ -14,6 +14,7 @@ module.exports = function(grunt) {
         src: "code-of-conduct.dust",
         dest:"../code-of-conduct.html",
         options: {
+          context: "data/schedule.json",
           whitespace: true
         }
       }

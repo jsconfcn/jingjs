@@ -1,423 +1,84 @@
 {>layout/}
 {<body}
-          <div class="row">
-            <div class="span12">
-              <h2>Information</h2>
-              <hr class="purple" />
-            </div>
-          </div>
-          <div class="row-fluid">
-            <div class="span6">
-              <p>
-                <span lang="zh-cn" data-i18n="conf-description">
-                  <strong>京JS 2013</strong> 是一次以JavaScript和Node.js技术为主题为期二天的会议和编程马拉松。这次关注于软件研发者的盛会将偕同中国国内与国际上JavaScript社区业界的知名人士，共同分享他们的专业知识与对JavaScript的热情。此会将于11月9－10日在北京举行。
-                </span>
-              </p>
-              <p>&nbsp;</p>
+      <section id="about">
+        <div>
+          <h1 data-i18n="conf-about">About the conference</h1>
+          <!-- <h2>About the conference</h2> -->
+          <p data-i18n="conf-description">京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.</p>
+        </div>
+      </section>
+      
+      <section id="speakers" class="people">
+        <div>
+          <h1 data-i18n="conf-speakers">Speakers</h1>
+          <ul class="grid">
+            {+speakers/}
+          </ul>
+        </div>
+      </section>
 
-              <h3 lang="zh-cn" data-i18n="conf-register">现在就来注册吧！</h3>
-              <p lang="zh-cn" data-i18n="conf-register-desp">
-                <strong>首批入场券即将发售</strong>, 同时也给大家带来一个好消息，无需等到正是发售即可提前获得购票资格！
-              </p>
-              <p lang="zh-cn" data-i18n="conf-register-form">
-                <strong>输入您的Email地址</strong> 就有机会提前获得购票机会！
-              </p>
-<!--               <p>
-                <strong>Sign up for the mailing list</strong> to get announcements and updates about the conference.
-              </p> -->
-              <!-- Begin MailChimp Signup Form -->
-              <div id="mc_embed_signup">
-                <form action="http://jingjs.us7.list-manage.com/subscribe/post?u=291a65abef179d418a22a62f4&amp;id=2f54e8defe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" _lpchecked="1">
-                  <div class="mc-field-group input-append">
-                    <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
-                  </div>
-                  <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
-              <p>&nbsp;</p>
+      <section id="map" class="map">
+        <div>
+          <div class="map-info">
+            <h1 data-i18n="conf-venue-name">Unis Center</h1>
+            <address>
+              <span data-i18n="conf-venue-addr1">Courtyard 1, Building 10</span>
+              <span data-i18n="conf-venue-addr2">Zhongguancun East Rd</span>
+              <span data-i18n="conf-venue-addr3">Haidian District, Beijing, China</span>
+              <span>+86 10 6279 1888</span>
+              ‎<a href="http://uniscenter.com">uniscenter.com</a>
+            </address>
+          </div>
+          <div class="map-right"></div>
+        </div>
+      </section>
 
-              <h3 lang="zh-cn" data-i18n="conf-social">在线关注我们</h3>
-              <div>
-                <span class="social-icon"><a href="https://github.com/jsconfcn" class="icon-github-circled" target="_blank"></a></span>
-                <span class="social-icon"><a href="http://weibo.com/jingjs2013" class="icon-weibo" target="_blank"></a></span>
-                <span class="social-icon"><a href="https://twitter.com/jingjsconf" class="icon-twitter" target="_blank"></a></span>
-                <span class="social-icon"><a class="social-link" href="http://webchat.freenode.net?channels=jingjs">#jingjs</a></span>
-              </div>
-              <p>&nbsp;</p>
+      <section id="sponsors">
+        <div>
+          <h1 data-i18n="conf-sponsors">Sponsors</h1>
+          <ul class="grid">
+            {+sponsors/}
+          </ul>          
+        </div>
+      </section>
 
-            </div>
-            <div class="span6">
-              <div class="map" id="map"></div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="span12">
-              <h2 lang="zh-cn" data-i18n="conf-speakers">讲师</h2>
-              <hr class="purple" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <h3 lang="zh-cn" data-i18n="conf-proposals">期待您的建议</h3>
-              <p lang="zh-cn" data-i18n="conf-presentations">
-                如果您有意向成为Jing.js的讲师，欢迎在9月24日前与联系我们！
-              </p>
-              <p lang="zh-cn" data-i18n="conf-ideas"> 
-                我们很愿意听到您在JavaScript和Node.js方面的经验分享。只要您的技术经验均来自于真实产品，并能给大家带来帮助。欢迎前来分享！
-              </p>
-              <p lang="zh-cn" data-i18n="conf-action">还等什么, <a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Speaker%20Suggestion">推荐讲师</a> or <span class="btn-link" data-toggle="collapse" data-target=".cfp-form" >提交演讲话题</span>!</p>
-            </div>
-          </div>
-           
-          <div class="collapse cfp-form">
-            <div class="well">
-              <button type="button" class="close" data-toggle="collapse" data-target=".cfp-form">&times;</button>
-              <script>
-                var submitted = false;
-                function cfpSubmitted() { 
-                  submitted=true;
-                  $('.cfp-form').collapse('hide');
-                  alert('Thanks for the submission!');
-                };
-              </script>
-
-              <!-- Begin embedded Google Doc form -->
-              <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDhMWGthWENQNEs5S3h6NmtCLS1tcUE6MA" method="POST" id="ss-form" target="hidden_iframe" onsubmit="cfpSubmitted();" data-provide="validator">
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='index.html';}"></iframe>
-                 
-                <div class="row-fluid">
-                  <div class="span12">
-                    <h2 lang="zh-cn" data-i18n="conf-speaker-details">演讲者详细信息</h2>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span6 control-group">
-                    <label class="control-label" for="entry_0"><span lang="zh-cn" data-i18n="conf-speaker-name">姓名</span><span class="help-inline"></span></label>
-                    <div class="controls">
-                      <input class="span12" type="text" name="entry.0.single" value="" data-validate="required" id="entry_0" />
-                    </div>
-                  </div>
-                  <div class="span6 control-group">
-                    <label class="control-label" for="entry_7"><span lang="zh-cn" data-i18n="conf-speaker-email">Email地址</span><span class="help-inline"></span></label>
-                    <div class="controls">
-                      <input class="span12" type="text" name="entry.7.single" value="" data-validate="required" id="entry_7" />
-                    </div>
-                  </div>
-                </div>
-                <div class="alert alert-info">
-                  <button type="button" class="close" data-dismiss="alert">&times;</button>
-                  <span lang="zh-cn" data-i18n="conf-speaker-note">
-                    <strong>顺便提一下</strong>，要是您讨厌填写表单, 你也可以<strong><a href="https://github.com/jsconfcn/jingjs/tree/master/proposals" target="_blank">通过Github提交</a></strong>或者把你的建议email给<strong><a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Talk%20Proposal">troy@jingjs.org</a></strong>.
-                  </span>
-                </div>
-                <div class="row-fluid">
-                  <div class="span12"><h2 lang="zh-cn" data-i18n="conf-talk-detail">话题详情</h2></div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span6 control-group">
-                    <label lang="zh-cn" data-i18n="conf-talk-title" class="control-label" for="entry_1">标题 <span class="help-inline"></span></label>
-                    <div class="controls">
-                      <input class="span12" type="text" data-validate="required" name="entry.1.single" value="" id="entry_1" />
-                    </div>
-                  </div>
-                  <div class="span6 control-group">
-                    <label class="control-label" for="entry_6"><span lang="zh-cn" data-i18n="conf-talk-duration">时长</span></label>
-                    <label class="radio inline">
-                      <input type="radio" name="entry.6.group" value="5" id="group_6_0" />
-                      <span lang="zh-cn" data-i18n="conf-talk-duration-5">5 分钟 (<a href="http://en.wikipedia.org/wiki/Lightning_talk">快速分享</a>)</span>
-                    </label>
-                    <label class="radio inline">
-                      <input type="radio" name="entry.6.group" checked="" value="20" id="group_6_1">
-                      <span lang="zh-cn" data-i18n="conf-talk-duration-20">20 分钟</span>
-                    </label>
-                    <label class="radio inline">
-                      <input type="radio" name="entry.6.group" value="40" id="group_6_2">
-                      <span lang="zh-cn" data-i18n="conf-talk-duration-40">40 分钟</span>
-                    </label>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span12 control-group">
-                    <label class="control-label" for="entry_2"><span lang="zh-cn" data-i18n="conf-talk-abstract">大纲</span><span class="help-inline"></span></label>
-                    <div class="controls">
-                      <textarea class="span12" name="entry.2.single" rows="14" cols="75" data-validate="required" id="entry_2"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <div class="row-fluid">
-                  <div class="span12 control-group">
-                    <label class="checkbox inline" for="group_8_1">
-                      <input data-validate="required" type="checkbox" name="entry.8.group" value="yes" class="ss-q-checkbox" id="group_8_1" name="group_8_1" /><span lang="zh-cn" data-i18n="conf-talk-conduct">是的，我已经阅读过 <a target="_blank" href="code-of-conduct.html">申明文档了</a></span>
-                    </label>
-                    <span class="help-inline"></span>
-                    </label>
-                  </div>
-                </div>
-                <input type="hidden" name="pageNumber" value="0" />
-                <input type="hidden" name="backupCache" value="" />
-
-                <input type="submit" name="submit" value="Submit" />
-              </form>
-              <!-- End embedded Google Doc Form -->
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <h2 lang="zh-cn" data-i18n="conf-sponsors">赞助商</h2>
-              <hr class="purple" />
-           </div>
-          </div>
-          <div class="row">
-            <div lang="zh-cn" data-i18n="conf-callforsponsors" class="span12">
-              <h3>诚招赞助商</h3>
-              <p>
-                我们正在寻找合适的赞助商一同为大家呈现一场完美的技术大会！赞助商名额有限，请速速与我们联系。
-              </p>
-              <p>
-                要获悉更多赞助相关信息，请联系<a href="mailto:goddy128@gmail.com?Subject=[JingJS]%20Sponsorship">Goddy Zhao</a>
-              </p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <h2 lang="zh-cn" data-i18n="conf-team">大会组织者</h2>
-              <hr class="purple" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="span12">
-              <ul class="thumbnails">
-                <li class="span2">
-                  <div class="thumbnail">
-                    <img src="https://secure.gravatar.com/avatar/01c1552554b38af6ba1cbe6e3ee17cf2?s=400" />
-                    <div class="caption">
-                      <h6>Troy Howard</h6>
-                      <p><a href="http://github.com/thoward" target="_blank">@thoward</a></p>
-                      <p><a href="mailto:troy@jingjs.org">troy@jingjs.org</a></p>
-                    </div>
-                  </div>
-                </li>
-                <li class="span2">
-                  <div class="thumbnail">
-                    <img src="https://secure.gravatar.com/avatar/34770008557dc61d106dc01a2d70581e?s=400">
-                    <div class="caption">
-                      <h6>Goddy Zhao</h6>
-                      <p><a href="http://github.com/goddyzhao" target="_blank">@goddyzhao</a></p>
-                      <p><a href="mailto:goddy128@gmail.com">goddy128@gmail.com</a></p>
-                    </div>
-                  </div>
-                </li>
-                <li class="span2">
-                  <div class="thumbnail">
-                    <img src="https://secure.gravatar.com/avatar/a1877266b772620648e01454a4207486?s=400">
-                    <div class="caption">
-                      <h6>Glenn Block</h6>
-                      <p><a href="http://github.com/glennblock" target="_blank">@glennblock</a></p>
-                      <p><a href="mailto:glenn.block@gmail.com">glenn.block@gmail.com</a></p>
-                    </div>
-                  </div>
-                </li>
-                <li class="span2">
-                  <div class="thumbnail">
-                    <img src="https://secure.gravatar.com/avatar/95b9d41231617a05ced5604d242c9670?s=400">
-                    <div class="caption">
-                      <h6>MK2</h6>
-                      <p><a href="http://github.com/fengmk2" target="_blank">@fengmk2</a></p>
-                      <p><a href="mailto:fengmk2@gmail.com">fengmk2@gmail.com</a></p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
+      <section id="organizers" class="people">
+        <div>
+        <div>
+          <h1 data-i18n="conf-team">Organizers</h1>
+        </div>
+        <ul class="grid">
+          {+team/}
+        </ul>
+      </div>
+      </section>
 {/body}
-{<scripts}
-        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-        <!-- Google Maps -->
-        <script>
-          // some globals about our map location
-          var map;
-          var loc = new google.maps.LatLng(39.995813,116.332018);
-          var markerPos = new google.maps.LatLng(39.995813,116.332018);
-
-          function initMaps() {
-
-            // some custom styling for a washed out look 
-            var stylers = [ 
-              { 
-                "featureType": "all", 
-                "elementType": "all",
-                "stylers": [ 
-                    { "saturation": "-70" }  
-                  ] 
-              } 
-            ];
-
-            var mapOptions = {
-              zoom: 14,
-              center: loc,
-              mapTypeId: 'venue',
-              scrollwheel: false
-            };
-            
-            console.log(document.getElementById("map"));
-            map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            
-            var styledMapOptions = {
-              map: map,
-              name: "venue-map"
-            }
-            var marker = new google.maps.Marker({
-              position: markerPos,
-              map: map,
-              title: "Unis Center"
-            });
-
-            var infowindow = new google.maps.InfoWindow({
-              maxWidth: 500,
-              position: markerPos,
-              content:  '<div class="clearfix"><h4>Unisplendour International Center<br />(紫光国际会议中心)</h4>China, Beijing, Haidian, Zhongguancun East Rd, 1号院10号楼 邮政编码: 100084 ‎<br/>+86 10 6279 1888 <br/>‎<a href="http://uniscenter.com">uniscenter.com</a></div>'
-            });
-
-            // uncomment to show marker popup at load vs user click on marker
-            // infowindow.open(map);
-            
-            google.maps.event.addListener(marker, 'click', function() {
-              infowindow.open(map, marker);
-            });
-
-            var testmap =  new google.maps.StyledMapType(stylers, styledMapOptions);
-            
-            map.mapTypes.set('venue', testmap);
-            map.setMapTypeId('venue');
-          }
-        </script>
-{/scripts}
-{<i18n}
-          <span lang="en-us" data-i18n="conf-description">
-            <strong>京JS 2013</strong> is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.
-          </span>
-          <span lang="zh-cn" data-i18n="conf-description">
-            <strong>京JS 2013</strong> 是一场专注JavaScript和Node.js技术，为期两天的国际性技术大会。届时，大会会邀请国内外优秀的讲师为大家分享在JavaScript和Node.js技术方面的经验。大会将在11月9-10日在北京召开。
-          </span>
-          
-          <span lang="en-us" data-i18n="conf-register">Pre-Register NOW!</span>
-          <span lang="zh-cn" data-i18n="conf-register">现在就注册吧！</span>
-          
-          <span lang="en-us" data-i18n="conf-register-desp">
-            <strong>Early-bird tickets will be available soon</strong>, but you don't have to wait to get pre-registered.
-          </span>
-          <span lang="zh-cn" data-i18n="conf-register-desp">
-            <strong>首批入场券即将发售</strong>, 同时也给大家带来一个好消息，无需等到正是发售即可提前获得购票资格！
-          </span>
-          
-          <span lang="en-us" data-i18n="conf-register-form">
-            <strong>Sign up below</strong> and you'll be among the first to get a ticket.
-          </span>
-          <span lang="zh-cn" data-i18n="conf-register-form">
-            <strong>输入您的Email地址</strong> 就有机会提前获得购票机会！
-          </span>
-          
-          <span lang="en-us" data-i18n="conf-social">Follow Us Online</span>
-          <span lang="zh-cn" data-i18n="conf-social">在线关注我们</span>
-          
-          <span lang="en-us" data-i18n="conf-speakers">Speakers</span>
-          <span lang="zh-cn" data-i18n="conf-speakers">讲师</span>
-
-          <span lang="en-us" data-i18n="conf-proposals">Call for Proposals</span>
-          <span lang="zh-cn" data-i18n="conf-proposals">期待您的建议</span>
-          
-          <span lang="en-us" data-i18n="conf-presentations">
-            We are now accepting submissions for presentations. The Call for Proposals will end on September 24th.
-          </span>
-          <span lang="zh-cn" data-i18n="conf-presentations">
-            如果您有意向成为Jing.js的讲师，欢迎在9月24日前与联系我们！
-          </span>
-          
-          <span lang="en-us" data-i18n="conf-ideas"> 
-            We'd love to hear your ideas for talks on the many and varied aspects of JavaScript and Node.js. Our favorite topics are those that deliver hard-earned knowledge based on real-world experience and research. Come share with us!
-          </span>
-          <span lang="zh-cn" data-i18n="conf-ideas"> 
-            我们很愿意听到您在JavaScript和Node.js方面的经验分享。只要您的技术经验均来自于真实产品，并能给大家带来帮助。欢迎前来分享！
-          </span>
-          
-          <span lang="en-us" data-i18n="conf-action">Go ahead, <a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Speaker%20Suggestion">suggest a speaker</a> or <span class="btn-link" data-toggle="collapse" data-target=".cfp-form" >submit a talk</span>!</span>
-          <span lang="zh-cn" data-i18n="conf-action">还等什么, <a href="mailto:troy@jingjs.org?Subject=[JingJS]%20推荐讲师">推荐讲师</a> or <span class="btn-link" data-toggle="collapse" data-target=".cfp-form" >提交演讲话题</span>!</span>
-
-          <!-- Talk Submission Form -->          
-          <span lang="en-us" data-i18n="conf-speaker-details">Speaker Details</span>
-          <span lang="zh-cn" data-i18n="conf-speaker-details">演讲者详细信息</span>
-          
-          <span lang="en-us" data-i18n="conf-speaker-name">Name</span>
-          <span lang="zh-cn" data-i18n="conf-speaker-name">姓名</span>
-
-          <span lang="en-us" data-i18n="conf-speaker-email">Email Address</span>
-          <span lang="zh-cn" data-i18n="conf-speaker-email">Email地址</span>
-
-          <span lang="en-us" data-i18n="conf-speaker-note">
-            <strong>BTW</strong>, if you hate filling out forms in webpages, you can <strong><a href="https://github.com/jsconfcn/jingjs/tree/master/proposals" target="_blank">submit via GitHub</a></strong> or email your proposal to <strong><a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Talk%20Proposal">troy@jingjs.org</a></strong>.
-          </span>
-          <span lang="zh-cn" data-i18n="conf-speaker-note">
-            <strong>顺便提一下</strong>，要是您讨厌填写表单, 你也可以<strong><a href="https://github.com/jsconfcn/jingjs/tree/master/proposals" target="_blank">通过Github提交</a></strong>或者把你的建议email给<strong><a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Talk%20Proposal">troy@jingjs.org</a></strong>。
-          </span>
-
-          <span lang="en-us" data-i18n="conf-talk-detail">Talk Details</span>
-          <span lang="zh-cn" data-i18n="conf-talk-detail">话题详情</span>
-          
-          <span lang="en-us" data-i18n="conf-talk-title">Title <span class="help-inline"></span></span>
-          <span lang="zh-cn" data-i18n="conf-talk-title">标题 <span class="help-inline"></span></span>
-          
-          <span lang="en-us" data-i18n="conf-talk-duration">Duration</span>
-          <span lang="zh-cn" data-i18n="conf-talk-duration">时长</span>
-
-          <span lang="en-us" data-i18n="conf-talk-duration-5">5 minutes (<a href="http://en.wikipedia.org/wiki/Lightning_talk">lightning talk</a>)</span>
-          <span lang="zh-cn" data-i18n="conf-talk-duration-5">5 分钟 (<a href="http://en.wikipedia.org/wiki/Lightning_talk">快速分享</a>)</span>
-
-          <span lang="en-us" data-i18n="conf-talk-duration-20">20 minutes</span>
-          <span lang="zh-cn" data-i18n="conf-talk-duration-20">20 分钟</span>
-
-          <span lang="zh-cn" data-i18n="conf-talk-duration-40">40 分钟</span>
-          <span lang="en-us" data-i18n="conf-talk-duration-40">40 minutes</span>
-
-          <span lang="en-us" data-i18n="conf-talk-abstract">Abstract</span>
-          <span lang="zh-cn" data-i18n="conf-talk-abstract">大纲</span>
-
-          <span lang="en-us" data-i18n="conf-talk-conduct">Yes, I&#39;ve read the <a target="_blank" href="code-of-conduct.html">Code of Conduct</a></span>
-          <span lang="zh-cn" data-i18n="conf-talk-conduct">是的，我已经阅读过 <a target="_blank" href="code-of-conduct.html">申明文档了</a></span>
-          <!-- End Talk Submission Form -->
-
-          <span lang="en-us" data-i18n="conf-callforsponsors">Call for Sponsors</span>
-          <span lang="zh-cn" data-i18n="conf-callforsponsors">诚招赞助商</span>
-          
-          <span lang="en-us" data-i18n="conf-sponsors">Sponsors</span>
-          <span lang="zh-cn" data-i18n="conf-sponsors">赞助商</span>
-          
-          <span lang="en-us" data-i18n="conf-callforsponsors">
-            <h3>Call for Sponsors</h3>
-            <p>
-              We are seeking corporate partners to help us create the best conference possible. Please act fast, the time is nigh and <strong>sponsorships are limited</strong>.
-            </p>
-            <p>
-              For more information please contact <a href="mailto:troy@jingjs.org?Subject=[JingJS]%20Sponsorship">Troy Howard</a>.
-            </p>
-          </span>
-          <span lang="zh-cn" data-i18n="conf-callforsponsors">
-            <h3>诚招赞助商</h3>
-            <p>
-              我们正在寻找合适的赞助商一同为大家呈现一场完美的技术大会！赞助商名额有限，请速速与我们联系。
-            </p>
-            <p>
-              要获悉更多赞助相关信息，请联系<a href="mailto:goddy128@gmail.com?Subject=[JingJS]%20Sponsorship">Goddy Zhao</a>
-            </p>
-          </span>
-
-          <span lang="en-us" data-i18n="conf-team">Team</span>
-          <span lang="zh-cn" data-i18n="conf-team">大会组织者</span>
-{/i18n}
+{<speakers}
+  {#speakers}
+  <li>
+    <a href="http://github.com/{id}">
+      <span class="icon"><img src="img/{id}.jpg"/></span>
+      <h3 class="title">{full_name}</h3>
+      <span class="category">@{id}</span>
+    </a>
+  </li>
+  {/speakers}
+{/speakers}
+{<sponsors}
+  {#sponsors}
+  <li>
+    <a href="{url}"><img src="img/{id}.png" /></a>
+  </li>  
+  {/sponsors}
+{/sponsors}
+{<team}
+  {#organizers}
+  <li>
+    <a href="http://github.com/{id}">
+      <span class="icon"><img src="img/{id}.jpg"/></span>
+      <h3 class="title">{full_name}</h3>
+      <span class="category">@{id}</span>
+    </a>
+  </li>
+  {/organizers}
+{/team}

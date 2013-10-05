@@ -3,151 +3,242 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>京JS 2013 - A two-day conference in Beijing for the JavaScript and Node.js community</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>京JS 2013 - A two-day conference in Beijing for the JavaScript and Node.js community</title>
+  <meta name="description" content="京JS 2013 - A two-day conference in Beijing for the JavaScript and Node.js community">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="javascript, node.js, conference, beijing, china, shanghai, jingjs, hujs" />
+  <meta name="author" content="Codrops" />
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Lato|Russo+One|Open+Sans' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/fontello.css">
+  <script>
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  //////////////////////////////////////    //////////////////////////////////////
+  //////////////////////////////////////     ////////////////////////     ////////
+  ///////////////////////////////////////    ////////////////////////     ////////
+  ///////////////////////////////////////    ////////////////////////     ////////
+  ///////////////////////////////////////    ////////////////////////     ////////
+  //////////////////////////////////////                /////////////     ////////
+  /////////////////////////////                          ////////////     ////////
+  ////////////////////////                ///////////      //////////     ////////
+  //////////////////////////        /////////////////////////////////     ////////
+  ////////////////////////////  //////////////   ////////////////////     ////////
+  ///////////////////////////////////////          //////////////////     ////////
+  ////////////////////////////////                  ///////      ////     ////////
+  ////////////////////////////////       //////     ////////              ////////
+  /////////////////////////////////   ////////      /////////           //////////
+  /////////////////////////////////   ////////     ////////////       ////////////
+  /////////////////////////////////    ///////    ////////////////////////////////
+  //////////////////////////////////             /////////////////////////////////
+  //////////////////////////////////            ///////////////        ///////////
+  ///////////////////////////////////        ////////////////            /////////
+  ///////////////////////////////////////    ///////////////      //     /////////
+  ///////////////////////////////////////    ///////////////    /////    /////////
+  ///////////////////////////////   /////    ///    ////////     /////////////////
+  //////////////////////////////   //////    ////    ////////       //////////////
+  /////////////////////////////    //////    /////    ////////         ///////////
+  ////////////////////////////     //////    //////    /////////         /////////
+  ////////////////////////////    ///////    ///////   /////////////      ////////
+  ////////////////////////////    //////     ////////   /////////////     ////////
+  ////////////////////////////    ////       //////////////    ///////    ////////
+  //////////////////////////////////////     //////////////      ///      ////////
+  //////////////////////////////////////     ///////////////             /////////
+  ///////////////////////////////////////   //////////////////         ///////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////
+  </script>
+  <link rel="stylesheet" type="text/css" href="css/default.css" />
+  <link rel="stylesheet" type="text/css" href="css/speakers.css" />
+  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+</head>
+<body onload="initialize();">
+  <div class="container">
+    <!-- START Big header/image slider -->
+    <div id="slider" class="sl-slider-wrapper">
 
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-        <script>
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        //////////////////////////////////////    //////////////////////////////////////
-        //////////////////////////////////////     ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        ///////////////////////////////////////    ////////////////////////     ////////
-        //////////////////////////////////////                /////////////     ////////
-        /////////////////////////////                          ////////////     ////////
-        ////////////////////////                ///////////      //////////     ////////
-        //////////////////////////        /////////////////////////////////     ////////
-        ////////////////////////////  //////////////   ////////////////////     ////////
-        ///////////////////////////////////////          //////////////////     ////////
-        ////////////////////////////////                  ///////      ////     ////////
-        ////////////////////////////////       //////     ////////              ////////
-        /////////////////////////////////   ////////      /////////           //////////
-        /////////////////////////////////   ////////     ////////////       ////////////
-        /////////////////////////////////    ///////    ////////////////////////////////
-        //////////////////////////////////             /////////////////////////////////
-        //////////////////////////////////            ///////////////        ///////////
-        ///////////////////////////////////        ////////////////            /////////
-        ///////////////////////////////////////    ///////////////      //     /////////
-        ///////////////////////////////////////    ///////////////    /////    /////////
-        ///////////////////////////////   /////    ///    ////////     /////////////////
-        //////////////////////////////   //////    ////    ////////       //////////////
-        /////////////////////////////    //////    /////    ////////         ///////////
-        ////////////////////////////     //////    //////    /////////         /////////
-        ////////////////////////////    ///////    ///////   /////////////      ////////
-        ////////////////////////////    //////     ////////   /////////////     ////////
-        ////////////////////////////    ////       //////////////    ///////    ////////
-        //////////////////////////////////////     //////////////      ///      ////////
-        //////////////////////////////////////     ///////////////             /////////
-        ///////////////////////////////////////   //////////////////         ///////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////////////////
-        </script>
-    </head>
-    <body onload="initialize();">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div class="container">
-          <div class="row">
-            <div class="span2">
-              <a href="index.html"><img src="img/jingjs.jpg"></a>
-            </div>
-            <div class="span1"></div>
-            <div class="span7">
-              <h1><span data-i18n="conf-name">京JS</span> 2013 <small><span data-i18n="conf-date">11月9-10日</span></small>
-              </h1>
-              <p><span lang="zh-cn" data-i18n="conf-tagline">一个二天的为中国JavaScript和Node.js研发者社区举办的会议在北京举行</span></p>
-           </div>
-            <div class="span1 pull-right">
-              <p><a onclick="i18n('en-us');" href="javascript:void(0);">EN</a> / <a onclick="i18n('zh-cn');" href="javascript:void(0);">中文</a></p>
-            </div>
+      <div class="sl-slider">
+        <!-- Fixed floating content -->
+        <div class="sl-trans-elems">
+          <h2><a href="index.html"><img src="img/logo.png"/></a></h2>
+          <blockquote>
+            <h3 data-i18n="conf-date">2013 NOV 9-11, BEIJING</h3>
+            <p data-i18n="conf-tagline">A conference for the JavaScript community in China
+          </blockquote>
+        </div>
+        <!-- Slides -->
+        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-1"></div>
           </div>
-          <div class="row">
-            <p>&nbsp;</p>
+        </div>
+        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-2"></div>
           </div>
+        </div>
+        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-3"></div>
+          </div>
+        </div>
+        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-4"></div>
+          </div>
+        </div>
+      </div>
+      <!-- /sl-slider -->
+      <nav id="nav-dots" class="nav-dots">
+        <span class="nav-dot-current"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </nav>
+    </div> <!-- /slider-wrapper -->
+    <!-- END Big header/image slider -->
 
-          {+body/}
-          
-          <div class="row"><div class="span12"><hr></div></div>
-          <footer>
-            <span>&copy; 京JS - Built with love and passion </span>
-            <span class="pull-right">
-              <span class="social-iconsmall"><a href="https://github.com/jsconfcn" class="iconsmall-github-circled" target="_blank"></a></span>
-              <span class="social-iconsmall"><a href="http://weibo.com/jingjs2013" class="iconsmall-weibo" target="_blank"></a></span>
-              <span class="social-iconsmall"><a href="https://twitter.com/jingjsconf" class="iconsmall-twitter" target="_blank"></a></span>
-              <span class="social-iconsmall"><a class="social-link" href="http://webchat.freenode.net?channels=jingjs">#jingjs</a></span>
-              <span>&nbsp;</span>
-              <span class="social-iconsmall"><a class="social-link" href="code-of-conduct.html">Code Of Conduct</a></span>
-            </span>
-          </footer>
-        </div> <!-- /container -->
+    <!-- START floating header/topnav -->
+    <div class="header">
+      <div class="inner">
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <nav>
+          <a href="mailto:welcome@jingjs.org?Subject=[JingJS]%20General%20Inquiry" class="email"><span>Email</span></a>
+          <a href="http://weibo.com/jingjs2013" class="weibo"><span>Weibo</span></a>
+          <a href="https://twitter.com/jingjsconf" class="twitter"><span>Twitter</span></a>
+          <a href="https://github.com/jsconfcn" class="github"><span>Github</span></a>
+          <!-- TODO: Implement i18n here -->
+          <a onclick="toggleLang(this);" href="javascript:void(0);" class="language cn" lang="en-us" data-i18n="lang-widget">中文</a>
+        </nav>
+      </div>
+    </div>
+    <!-- START floating header/topnav -->
 
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <!-- TODO: Is this necessary? -->
+    <header class="clearfix">
+    </header>
 
-        <script src="js/vendor/bootstrap.min.js"></script>
-        <script src="js/i18n.js"></script>
-        
-        {+scripts/}
-        
-        <!-- Google Analytics -->
-        <script>
-            var _gaq=[['_setAccount','UA-41949906-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+    <!-- START Main Content -->
+    <div class="main">
+      {+body/}
 
-        <!-- Internationalization Data -->
-        <span id="i18n" style="display:none; visibility:hidden;">
-          <span lang="zh-cn" data-i18n="conf-name">京JS</span>
-          <span lang="en-us" data-i18n="conf-name">JingJS</span>
+    </div>
+    <!-- END Main Content -->
 
-          <span lang="zh-cn" data-i18n="conf-date">11月9-10日</span>
-          <span lang="en-us" data-i18n="conf-date">9-10, November</span>
+    <!-- START Footer -->
+    <footer id="footer">
+      <div class="content">
+        <div class="links">
+          <a href="mailto:welcome@jingjs.org?Subject=[JingJS]%20General%20Inquiry" class="email"><span>Email</span></a>
+          <a href="http://weibo.com/jingjs2013" class="weibo"><span>Weibo</span></a>
+          <a href="https://twitter.com/jingjsconf" class="twitter"><span>Twitter</span></a>
+          <a href="https://github.com/jsconfcn" class="github"><span>Github</span></a>
+          <!-- TODO: Implement i18n here -->
+          <a onclick="toggleLang(this);" href="javascript:void(0);" class="language cn" lang="en-us" data-i18n="lang-widget">中文</a>
+        </div>
+        <div class="copyright"><a href="code-of-conduct.html">Code Of Conduct</a> | &nbsp;<a href="http://creativecommons.org/licenses/by/3.0/">CCA 3.0 License</a> | &nbsp;Built by <a href="http://wiredcraft.com">Wiredcraft</a></div>
+      </div>
+    </footer>
+    <!-- END Footer -->
 
-          <span lang="zh-cn" data-i18n="conf-tagline">一个在北京举办的为期二天，为中国JavaScript和Node.js研发者社区举办的国际性技术大会</span>
-          <span lang="en-us" data-i18n="conf-tagline">A two day conference in Beijing for the Chinese JavaScript and Node.js community</span>
+  </div>
 
-          {+i18n/}
-        </span>
+  <!-- START Scripts -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
+  <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+  <script type="text/javascript"> 
+    $(function() {
+      var Page = (function() {
+    
+        var $nav = $( '#nav-dots > span' ),
+          slitslider = $( '#slider' ).slitslider( {
+            onBeforeChange : function( slide, pos ) {    
+              $nav.removeClass( 'nav-dot-current' );
+              $nav.eq( pos ).addClass( 'nav-dot-current' );
+            },
+            autoplay: true
+          } ),
+    
+          init = function() {
+            initEvents();
+          },
+          initEvents = function() {
+            $nav.each( function( i ) {            
+              $(this).on( 'click', function( event ) {
+                var $dot = $(this);
+                if(!slitslider.isActive()) {
+                  $nav.removeClass( 'nav-dot-current' );
+                  $dot.addClass( 'nav-dot-current' );
+                }
+                slitslider.jump( i + 1 );
+                return false;
+              } );
+            } );
+          };
+          return { init : init };
+      })();
 
-        <script>
-          // called via body.onload
-          function initialize() { 
-            initMaps();
-            // internationalize w/ default language
-            i18n(navigator.language || navigator.userLanguage);
-          }
-        </script>
-    </body>
+      Page.init();    
+    });
+  </script>
+  
+  <script src="js/classie.js"></script>
+  <script src="js/cbpAnimatedHeader.min.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+    function toggleLang(e){
+      var currLang = e.getAttribute('lang');
+      var langStateTransitions = {
+        'en-us': 'zh-cn',
+        'zh-cn': 'en-us'
+      };
+      i18n(langStateTransitions[currLang]);
+    }
+  </script>
+  <!-- Google Analytics -->
+  <script>
+      var _gaq=[['_setAccount','UA-41949906-1'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+  <!-- Internationalization Data -->
+  <span id="i18n" style="display:none; visibility:hidden;">
+    {#i18n}
+      <span lang="zh-cn" data-i18n="{key}">{zh-cn}</span>
+      <span lang="en-us" data-i18n="{key}">{en-us}</span>
+    {/i18n}
+  </span>
+
+  <script>
+    // called via body.onload
+    function initialize() { 
+      // initMaps();
+      // internationalize w/ default language
+      i18n(navigator.language || navigator.userLanguage);
+    }
+  </script>
+
+  <!-- END Scripts -->
+
+</body>
 </html>

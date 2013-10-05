@@ -1,6 +1,10 @@
 /* General Demo Style */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
+body:after{
+    display:none;
+    content: url(img/1.jpg) url(img/2.jpg) url(img/3.jpg) url(img/4.jpg);
+}
 html { height: 100%; }
 
 *,
@@ -378,6 +382,7 @@ media_tag_0 {media_subcode:0}
 	font-size: 2em;
 }
 
+
 /* Example Media Queries */
 media_tag_1 {media_subcode:1}
 
@@ -493,11 +498,11 @@ media_tag_3 {media_subcode:3}
 
 /* Default styles for background colors */
 .sl-slide-horizontal .sl-slide-inner {
-	background: #ddd;
+	background: #333;
 }
 
 .sl-slide-vertical .sl-slide-inner {
-	background: #ccc;
+	background: #333;
 }
 
 

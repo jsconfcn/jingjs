@@ -169,7 +169,7 @@
       },
       {
       "key": "conf-about",
-      "zh-cn": "技术大会",
+      "zh-cn": "关于技术大会",
       "en-us": "About the conference"
       },
       {
@@ -180,7 +180,7 @@
       {
       "key": "conf-description",
       "en-us": "京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.",
-      "zh-cn": "京JS 2013 是一场专注JavaScript和Node.js技术，为期两天的国际性技术大会。届时，大会会邀请国内外优秀的讲师为大家分享在JavaScript和Node.js技术方面的经验。大会将在11月9-10日在北京召开。"
+      "zh-cn": "京JS 2013 是一场专注于JavaScript和Node.js技术，为期两天的国际性技术大会。届时，大会会邀请国内外的优秀讲师为大家分享在JavaScript和Node.js技术方面的经验。大会将于11月9-10日在北京召开。"
       },
       {
       "key": "conf-register",
@@ -300,7 +300,7 @@
       {
       "key": "conf-team",
       "en-us": "Organizers",
-      "zh-cn": "大会组织者"
+      "zh-cn": "大会组织团队"
       },
       {
       "key": "conf-coc",
@@ -315,7 +315,7 @@
       {
       "key": "conf-coc-short",
       "en-us": "JingJS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.",
-      "zh-cn": "京JS 旨在为所有人提供一场平等的技术大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。"
+      "zh-cn": "京JS 旨在为所有人提供一场平等的技术大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式的和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。"
       },
       {
       "key": "conf-coc-long-title",

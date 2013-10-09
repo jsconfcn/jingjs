@@ -1,2 +1,2 @@
 npm install
-grunt
+node_modules/.bin/grunt

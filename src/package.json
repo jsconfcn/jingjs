@@ -4,6 +4,7 @@
   "repository": "http://github.com/jsconfcn/jingjs",
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
     "grunt-dust-html": "",
     "dustjs-linkedin": ""
   }

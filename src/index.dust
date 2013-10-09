@@ -77,7 +77,7 @@
   {#speakers}
   <li>
     <a href="http://github.com/{id}">
-      <span class="icon"><img src="img/{id}.jpg"/></span>
+      <span class="icon"><img src="img/speaker/{id}.jpg"/></span>
       <h3 class="title">{full_name}</h3>
       <span class="category">@{id}</span>
     </a>
@@ -87,7 +87,7 @@
 {<sponsors}
   {#sponsors}
   <li>
-    <a href="{url}"><img src="img/{id}.png" /></a>
+    <a href="{url}"><img src="img/sponsor/{id}.png" /></a>
   </li>  
   {/sponsors}
 {/sponsors}
@@ -95,7 +95,7 @@
   {#organizers}
   <li>
     <a href="http://github.com/{id}">
-      <span class="icon"><img src="img/{id}.jpg"/></span>
+      <span class="icon"><img src="img/organizer/{id}.jpg"/></span>
       <h3 class="title">{full_name}</h3>
       <span class="category">@{id}</span>
     </a>

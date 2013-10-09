@@ -6,6 +6,27 @@
           <!-- <h2>About the conference</h2> -->
           <p data-i18n="conf-description">京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.</p>
         </div>
+        <div>
+          <h1 lang="zh-cn" data-i18n="conf-register">注册吧！</h1>
+          <p lang="zh-cn" data-i18n="conf-register-form">
+            输入您的Email地址就有机会提前获得购票机会！
+          </p>
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="http://jingjs.us7.list-manage.com/subscribe/post?u=291a65abef179d418a22a62f4&amp;id=2f54e8defe" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="" _lpchecked="1">
+              <div class="mc-field-group input-append">
+                <input type="email" placeholder="Email Address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+            </form>
+          </div>
+          <!--End mc_embed_signup-->
+          <p>&nbsp;</p>
+        </div>
       </section>
       
       <section id="speakers" class="people">

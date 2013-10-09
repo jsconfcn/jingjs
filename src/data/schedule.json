@@ -185,11 +185,11 @@
       },
       {
       "key": "conf-register",
-      "en-us": "Pre-Register NOW!",
-      "zh-cn": "现在就注册吧！"
+      "en-us": "Pre-Register!",
+      "zh-cn": "注册吧！"
       },
       {
-      "key": "conf-register-desp",
+      "key": "conf-register-desc",
       "en-us": "Early-bird tickets will be available soon, but you don't have to wait to get pre-registered.",
       "zh-cn": "首批入场券即将发售, 同时也给大家带来一个好消息，无需等到正是发售即可提前获得购票资格！"
       },

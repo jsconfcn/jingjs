@@ -905,7 +905,7 @@ margin-bottom: 5px;
 	}
 }
 /* Media Queries for custom slider */
-@media screen and (max-width: 660px) { 
+@media screen and (max-width: 660px) {
 
 	.sl-slider-wrapper {
 	  height: 500px
@@ -1050,35 +1050,35 @@ section.map {
 		display: inline-block;
 	}
 
-@media (min-width: 1280px) { 
-	section.map { 
+@media (min-width: 1280px) {
+	section.map {
 	  background-size: 100%;
 	}
 }
-@media (max-width: 1024px) and (min-width: 800px){ 
-	section.map div.map-info h1 { 
+@media (max-width: 1024px) and (min-width: 800px){
+	section.map div.map-info h1 {
     margin: 20px 20px;
 		font-size: 1.75em;
 	}
-	section.map div.map-info address { 
+	section.map div.map-info address {
 		font-size: 1em;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
 }
-@media (max-width: 800px) and (min-width: 600px) { 
+@media (max-width: 800px) and (min-width: 600px) {
 	section.map {
 	  min-height: 300px;
 	  background-size: auto 300px;
 	}
 	section.map div.map-info {
  		height: 200px;
-	} 
-	section.map div.map-info h1 { 
+	}
+	section.map div.map-info h1 {
     margin: 20px 20px;
 		font-size: 1.5em;
 	}
-	section.map div.map-info address { 
+	section.map div.map-info address {
 		font-size: .9em;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -1098,11 +1098,11 @@ section.map {
  		margin: 25px;
  		background-color: rgba(40,40,40,0.65);
  		padding: 10px;
-	} 
+	}
 	section.map div.map-right {
 		width: 0%;
-	} 
-	section.map div.map-info h1 { 
+	}
+	section.map div.map-info h1 {
     margin: 0px 10px;
 		font-size: 1.5em;
 	}
@@ -1137,6 +1137,10 @@ section.map {
 	} 
 }
 
+#about {
+  background-color: white;
+}
+
 #sponsors {
 	background-color: white;
 }
@@ -1145,7 +1149,7 @@ section.map {
   padding: 0;
 }
 
-#organizers { 
+#organizers {
 	background: #f4f4f5;
 	color: white;
 }
@@ -1158,4 +1162,64 @@ section.map {
 }
 #coc a {
   color: #2035aB;
-} 
+}
+
+input {
+  font-size: 1.8em;
+  line-height: 1.8em;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 4px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  padding: 0 15px;
+  display: inline-block;
+}
+input[type=email]{
+  width: 50%;
+  min-width: 8.5em;
+  margin-right: 10px;
+}
+input[type=submit] {
+  width: 25%;
+  min-width: 6em;
+  margin: 10px 10px 10px 0;
+  background: #F14E42;
+  cursor: pointer;
+  color: white;
+}
+input[type=submit]:hover {
+  background: #E12E22;
+}
+
+@media (max-width: 900px) and (min-width: 768px) {
+  input[type=email]{
+    width: 60%;
+  }
+  input[type=submit] {
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  .main section p {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  input {
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  input[type=email]{
+    width: 60%;
+  }
+  input[type=submit] {
+    width: 30%;
+  }
+}

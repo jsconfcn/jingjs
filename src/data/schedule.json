@@ -119,6 +119,11 @@
       "id": "netease",
       "full_name": "Netease",
       "url": "http://netease.com"
+    },
+    {
+      "id": "wiredcraft",
+      "full_name": "Wiredcraft", 
+      "url": "http://wiredcraft.com"
     }
   ],
   "organizers": [

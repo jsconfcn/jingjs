@@ -7,9 +7,9 @@
           <p data-i18n="conf-description">京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.</p>
         </div>
         <div>
-          <h1 lang="zh-cn" data-i18n="conf-register">注册吧！</h1>
-          <p lang="zh-cn" data-i18n="conf-register-form">
-            输入您的Email地址就有机会提前获得购票机会！
+          <h1 data-i18n="conf-register">Pre-Register!</h1>
+          <p data-i18n="conf-register-form">
+            Sign up below and you'll be among the first to get a ticket.
           </p>
           <!-- Begin MailChimp Signup Form -->
           <div id="mc_embed_signup">

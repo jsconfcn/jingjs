@@ -1164,7 +1164,7 @@ section.map {
   color: #2035aB;
 }
 
-input {
+input, .register-button {
   font-size: 1.8em;
   line-height: 1.8em;
   -moz-box-sizing: border-box;
@@ -1180,12 +1180,15 @@ input {
   padding: 0 15px;
   display: inline-block;
 }
+.register-button:hover {
+  color: white;
+}
 input[type=email]{
   width: 50%;
   min-width: 8.5em;
   margin-right: 10px;
 }
-input[type=submit] {
+input[type=submit], .register-button {
   width: 25%;
   min-width: 6em;
   margin: 10px 10px 10px 0;
@@ -1193,8 +1196,17 @@ input[type=submit] {
   cursor: pointer;
   color: white;
 }
-input[type=submit]:hover {
+input[type=submit]:hover, .register-button:hover {
   background: #E12E22;
+}
+
+.register-button {
+  text-align: center;
+  font-weight: 700;
+  margin: 0 auto;
+  min-width: 9em;
+  width: 9em;
+  display: block;
 }
 
 @media (max-width: 900px) and (min-width: 768px) {
@@ -1205,21 +1217,45 @@ input[type=submit]:hover {
     width: 30%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 400px) {
   .main section p {
     margin: 0;
     padding: 1em 0;
     font-size: 1.5em;
-    line-height: 1.5;
+    line-height: 1.7em;
   }
-  input {
+  input, .register-button {
     font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 1.75em;
   }
   input[type=email]{
     width: 60%;
   }
   input[type=submit] {
     width: 30%;
+  }
+  .register-button {
+    width: 60%;
+  }
+}
+@media (max-width: 400px) {
+  .main section p {
+    margin: 0;
+    padding: 1em 0;
+    font-size: 1em;
+    line-height: 1.2em;
+  }
+  input, .register-button {
+    font-size: 1em;
+    line-height: 1.75em;
+  }
+  input[type=email]{
+    width: 100%;
+  }
+  input[type=submit] {
+    width: 100%;
+  }
+  .register-button {
+    width: 100%;
   }
 }

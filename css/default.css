@@ -1203,10 +1203,11 @@ input[type=submit]:hover, .register-button:hover {
 .register-button {
   text-align: center;
   font-weight: 700;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
+  margin: 0 10px;
   min-width: 9em;
   width: 9em;
-  display: block;
+  /*display: block;*/
 }
 
 @media (max-width: 900px) and (min-width: 768px) {
@@ -1258,4 +1259,10 @@ input[type=submit]:hover, .register-button:hover {
   .register-button {
     width: 100%;
   }
+}
+
+div.front-buttons {
+  margin: 0 auto;
+  width: 35em;
+  min-width: 35em;
 }

@@ -2,7 +2,10 @@
 {<body}
       <section id="about">
         <div>
-          <a class="register-button" href="http://www.headin.cn/Themes/Activity/SignUp/?activityId=5254f89a869d0882b0a524e4&payType=0" data-i18n="conf-register">Register Now!</a>
+          <div class="front-buttons">
+            <a class="register-button" href="http://www.headin.cn/Themes/Activity/SignUp/?activityId=5254f89a869d0882b0a524e4&payType=0" data-i18n="conf-register">Register Now!</a>
+            <a class="register-button" href="schedule.html" data-i18n="conf-view-schedule">View Schedule</a>
+          </div>
         </div>
         <div>
           <h1 data-i18n="conf-about">About the conference</h1>

@@ -634,6 +634,11 @@
       "key": "conf-subscribe",
       "en-us": "Subscribe",
       "zh-cn": "订阅"
+      },
+      {
+      "key": "conf-view-schedule",
+      "en-us": "View Schedule",
+      "zh-cn": "查看议程"
       }
     ]
 }

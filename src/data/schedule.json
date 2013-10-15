@@ -50,14 +50,15 @@
             "zh": "上午9点40"
           },
           "details": {
-            "id": "substack",
-            "full_name": "James Halliday",
-            "title": "",
+            "id": "kennyluck",
+            "full_name": "Kang-Hao (Kenny) Lu",
+            "title": "Optimizing JS Games: Hidden Classes, Inline Caches and Dictionary Mode",
             "abstract": [
-              "",
-              ""
+              "The main theme about this talk will be JS performance in JS games, or any JS applications in which DOM access isn't the bottleneck. As a developer of a game-targted browser engine Shpinx, I'd like to talk about concepts and stragies we use while optimizing games (不江湖, from fps 30 to 50) and canvas library (Cocos2d-html5, notably pull request #1015).",
+              "In addition to the concepts of hidden classes and inline caches, which were already discussed in some of the excellent talks like Vyacheslav Egorov's, this talk focuses more on dictionary mode and common ways how JS objects fall into it. Some demos of the tools for examining these internals might also be provided.",
+              "The talk will be given in Chinese."
             ],
-            "url": "https://github.com/substack"
+            "url": "https://github.com/kennyluck"
           },
           "type": "talk"
         },
@@ -165,15 +166,14 @@
             "zh": "下午1点20"
           },
           "details": {
-            "id": "jakobmattsson",
-            "full_name": "Jakob Mattson",
-            "title": "Automated CSS-testing: Not just a myth",
+            "id": "substack",
+            "full_name": "James Halliday",
+            "title": "",
             "abstract": [
-              "You have some kind of test suite for your web app, so you know the features work. But does it look right? You fire up half a dozen virtual machines and open your drawer with five different mobile devices in it to check it out. The lack of automation in that is embarrasing.",
-              "Some people say that you can't test HTML/CSS. I'd like to show you the opposite. You can automate testing visual layout, refactor your CSS with confidence and get rid of this pain.",
-              "You understand why. Let's talk about how."
+              "",
+              ""
             ],
-            "url": "https://github.com/jakobmattsson"
+            "url": "https://github.com/substack"
           },
           "type": "talk"
         },
@@ -582,15 +582,15 @@
             "zh": "下午4点00"
           },
           "details": {
-            "id": "kennyluck",
-            "full_name": "Kang-Hao (Kenny) Lu",
-            "title": "Optimizing JS Games: Hidden Classes, Inline Caches and Dictionary Mode",
+            "id": "jakobmattsson",
+            "full_name": "Jakob Mattson",
+            "title": "Automated CSS-testing: Not just a myth",
             "abstract": [
-              "The main theme about this talk will be JS performance in JS games, or any JS applications in which DOM access isn't the bottleneck. As a developer of a game-targted browser engine Shpinx, I'd like to talk about concepts and stragies we use while optimizing games (不江湖, from fps 30 to 50) and canvas library (Cocos2d-html5, notably pull request #1015).",
-              "In addition to the concepts of hidden classes and inline caches, which were already discussed in some of the excellent talks like Vyacheslav Egorov's, this talk focuses more on dictionary mode and common ways how JS objects fall into it. Some demos of the tools for examining these internals might also be provided.",
-              "The talk will be given in Chinese."
+              "You have some kind of test suite for your web app, so you know the features work. But does it look right? You fire up half a dozen virtual machines and open your drawer with five different mobile devices in it to check it out. The lack of automation in that is embarrasing.",
+              "Some people say that you can't test HTML/CSS. I'd like to show you the opposite. You can automate testing visual layout, refactor your CSS with confidence and get rid of this pain.",
+              "You understand why. Let's talk about how."
             ],
-            "url": "https://github.com/kennyluck"
+            "url": "https://github.com/jakobmattsson"
           },
           "type": "talk"
         },

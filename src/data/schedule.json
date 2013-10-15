@@ -84,10 +84,9 @@
           "details": {
             "id": "jden",
             "full_name": "Jason Denizac",
-            "title": "",
+            "title": "My Year With Node.js",
             "abstract": [
-              "",
-              ""
+              "Over the past year I've dived deep into Node.js. I'll share what I've learned (and what I wish I had known) about the technology, the community, and building a startup around this vibrant open source ecosystem."
             ],
             "url": "https://github.com/jden"
           },

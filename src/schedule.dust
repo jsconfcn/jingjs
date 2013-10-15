@@ -1,0 +1,38 @@
+{>layout/}
+{<head}
+<link rel="stylesheet" type="text/css" href="css/schedule.css" />
+{/head}
+{<body}
+<section id="schedule">
+  <div>
+    <div class="row-fluid">
+    {#schedule}
+      <h1>{date.en}</h1>
+      <ul class="cbp_tmtimeline">
+      {#segments date=date}
+        <li class="{type} {details.id}">
+          <time class="cbp_tmtime" datetime="{start_time}"><span>{date.en}</span> <span>{time.en}</span></time>
+          <div class="cbp_tmicon cbp_tmicon-{type} cbp_tmicon-{details.id}"></div>
+          <div class="cbp_tmlabel">
+            {?details}
+              {#details}
+                <h2>{?url}<a href="{url}">{full_name}</a>{:else}{full_name}{/url}</h2>
+                <h3>{?title}{title}{:else}TBD{/title}</h3>
+                {?abstract}
+                  <span class="abstract">
+                  {#abstract}
+                    <p>{.}</p>
+                  {/abstract}
+                  </span>
+                {/abstract}
+              {/details}
+            {/details}
+          </div>
+        </li>
+      {/segments}
+      </ul>
+    {/schedule}
+   </div>
+  </div>
+</section>
+{/body}

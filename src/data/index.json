@@ -1,0 +1,640 @@
+{
+  "speakers": [
+    {
+      "id": "substack",
+      "full_name": "James Halliday",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "dominictarr",
+      "full_name": "Dominic Tarr",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "isaacmao",
+      "full_name": "Isaac Mao",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "ashedryden",
+      "full_name": "Ashe Dryden",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "xiecc",
+      "full_name": "Charlie Crane",
+      "title": "pomelo欧洲之旅 (Pomelo European Trip)",
+      "abstract": [
+        "Discuss the experience on attending and speaking at JsConf.eu and LXJS."
+      ]
+    },
+    {
+      "id": "coderoshi",
+      "full_name": "Eric Redmond",
+      "title": "HTTP is Hard",
+      "abstract": [
+        "As web services have become a standard method for interacting with a central service, REST principles over HTTP are the most common interface. But the HTTP specification is actually very complex (much more complex than telnet or IMAP). This talk focuses on the (often) unseen underlying complexity of properly developing web services against the HTTP protocol, and provides some suggestions on developing node.js web services that adhere to the spirit and letter of the HTTP specification."
+      ]
+    },
+    {
+      "id": "fool2fish",
+      "full_name": "Zhouxuan Yang",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "kyledrake",
+      "full_name": "Kyle Drake",
+      "title": "Bitcoin and JavaScript: The new gold standards",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "mde",
+      "full_name": "Matthew Eernisse",
+      "title": "Zero to Ready with Geddy",
+      "abstract": [
+        "The Geddy Web framework provides a simple, structured way to build a scalable, production-ready Web app with NodeJS.",
+        "In this talk, I'll show how easy it is to get started working on a Node app, starting by creating an app using Geddy's CLI, and a walk-through of a basic app layout. I will then move on to setting up a database, and then adding authentication by installing the geddy-passport module. The focus here is on building a practical, working application, along with demonstrating the setup of a JavaScript MVC app, and some Node conventions for code.",
+        "After setting up a basic app, I'll move on to showing how to use Geddy's generator scripts to set up a basic REST API, demonstrating how Geddy's MVC (model/view/controller) architecture works. I'll start with the model layer, Geddy's ORM (object-relational mapper) -- showing how Node's asynchronous programming paradigm works with database-access, and then moving on to Geddy's query API, and database migrations for schema changes. Next I'll show how to use the retrieved data to render a response -- either structured data (like JSON), or rendering HTML templates.",
+        "Last I'll cover how Geddy's MVC integrates with realtime -- using the same model code in the browser as on the server, and then show how to test a Geddy application.",
+        "The idea is to leave attendees with a working application, and a basic understanding of how the pieces of a Geddy app fit together -- to show how easy it is to use Geddy to jump-start a server-side JavaScript adventure with Node."
+      ]
+    },
+    {
+      "id": "rednaxelafx",
+      "full_name": "Krystal Mok",
+      "title": "Implementing a high performance JavaScript Engine",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "alyraz",
+      "full_name": "Alyssa Ravasio",
+      "title": "Lean Development with Node.js",
+      "abstract": [
+        "Largely based on my personal experiences and those of entrepreneurial friends in the valley, I want to talk about why Node.js is so great for building startups and how it facilitates a lean style of product development.",
+        "My story: Building Hipcamp with Node.js and the pivots I've made, why Node.js allowed us to make them faster and more seamlessly. A couple places where I fell down. ",
+        "Art of Prototyping: How Node.js empowers building products that test riskiest business assumptions first (super lightweight, fast).",
+        "Customer Development: How Node.js enables more rapid product iterations, quicker reaction of user feedback, how to elicit and integrate user feedback into product roadmap",
+        "Lean Team: Why Node.js is great for building products with small teams (everyone can do server and client side, no loss of time in context-switching)",
+        "Analytics with Node.js: How to build, measure, learn"
+      ]
+    },
+    {
+      "id": "jden",
+      "full_name": "Jason Denizac",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "jakobmattsson",
+      "full_name": "Jakob Mattson",
+      "title": "Automated CSS-testing: Not just a myth",
+      "abstract": [
+        "You have some kind of test suite for your web app, so you know the features work. But does it look right? You fire up half a dozen virtual machines and open your drawer with five different mobile devices in it to check it out. The lack of automation in that is embarrasing.",
+        "Some people say that you can't test HTML/CSS. I'd like to show you the opposite. You can automate testing visual layout, refactor your CSS with confidence and get rid of this pain.",
+        "You understand why. Let's talk about how."
+      ]
+    },
+    {
+      "id": "oren",
+      "full_name": "Oren Golan",
+      "title": "Don't Panic - The Hitchhiker's Guide to Node",
+      "abstract": [
+        "Full-stack JavaScript application opens up new possibilities but it also adds a challenge of making many in-flight decisions, such as the following: Should we use a web framework? Which one? How to organize our client-side codebase? Should we write in Object Oriented or Functional style?",
+        "In this talk we won't spend time on fluff and dive right in to a real codebase. I'll share code and practices that are applicable immediately to any JavaScript developer."
+      ]
+    },
+    {
+      "id": "tongyao",
+      "full_name": "Yao Tong",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "NickCarneiro",
+      "full_name": "Nick Carneiro",
+      "title": "Building Fast and Maintainable JavaScript Web Apps with Google Closure",
+      "abstract": [
+        "Since its launch in 2011, Indeed's Resume Search product has grown exponentially to contain millions of resumes. This talk explains how Indeed Engineers used Google Closure to keep the product fast and maintainable over two years. I'll explain how the Closure Library addresses various design flaws encountered while building the world's largest job search engine.",
+        "Topics Covered: Project structure, The Closure compiler, Event-driven design patterns, Unit testing, Closure templates, Speed optimizations"
+      ]
+    },
+    {
+      "id": "kennyluck",
+      "full_name": "Kang-Hao (Kenny) Lu",
+      "title": "Optimizing JS Games: Hidden Classes, Inline Caches and Dictionary Mode",
+      "abstract": [
+        "The main theme about this talk will be JS performance in JS games, or any JS applications in which DOM access isn't the bottleneck. As a developer of a game-targted browser engine Shpinx, I'd like to talk about concepts and stragies we use while optimizing games (不江湖, from fps 30 to 50) and canvas library (Cocos2d-html5, notably pull request #1015).",
+        "In addition to the concepts of hidden classes and inline caches, which were already discussed in some of the excellent talks like Vyacheslav Egorov's, this talk focuses more on dictionary mode and common ways how JS objects fall into it. Some demos of the tools for examining these internals might also be provided.",  
+        "The talk will be given in Chinese."
+      ]
+    },
+    {
+      "id": "johnnymugs",
+      "full_name": "Johnny Mukai",
+      "title": "Self Discovery: Looking for Insight in Javascript’s Esoteric Roots",
+      "abstract": [
+        "One of the most common gripes about Javascript is its use of prototypes rather than classes, if the myriad tools, patterns, and frameworks that massage it into a more classical OOP model are any indicator. But are these approaches hammering a prototypal peg into a class-shaped hole? What was happening in the early 90s that made Brendan Eich reach for prototypes rather than classes when designing his new language?",
+        "To find out, let’s a take a trip back in time and examine an exciting and very different language that heavily influenced Javascript: Self. Self is an ambitious language that, among other things, introduced prototypal OOP to the programming world. What lessons can we learn from this early pioneer of prototypal languages? Can we write better Javascript by understanding Self’s goals and approach to programming? Let’s explore the ambitions of Self and see if we can suss out the advantages and disadvantages of the prototypal approach and apply what we find to our own Javascript writing."
+      ]
+    },
+    {
+      "id": "rongshen",
+      "full_name": "沈嵘 (Rong Shen)",
+      "title": "Advanced Grunt.js",
+      "abstract": [
+        "我是一个Grunt的重度用户，Nextday的Web Site和Backend API（预计在8月中发布）都是基于Grunt进行CI的。",
+        "本次话题将以一个静态站点的生成和部署为实例，讲解Grunt的高级用法。同时，也便于初次使用的用户能够通过Copy & Paste完成一些常见的任务。"
+      ]
+    },
+    {
+      "id": "kjbekkelund",
+      "full_name": "Kim Joar Bekkelund",
+      "title": "Patterns of Large-Scale JavaScript Applications",
+      "abstract": [
+        "JavaScript has come a long way in few years. As we no longer need to battle DOM differences we can focus on building our applications instead. Now, however, as more and more application logic move from the server to the client our main problem is that we need to unlearn our earlier DOM-centric approach to JavaScript. Tools such as Backbone and Angular help, but before we are able to use the effectively we have to change some of our neural pathways. In this talk I will look at a couple of patterns that will help you move away from jQuery spaghetti and get you started on a foundation for building large-scale JavaScript applications."
+      ]
+    },
+    {
+      "id": "woodsrong",
+      "full_name": "Xianqian Rong",
+      "title": "",
+      "abstract": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "py8765",
+      "full_name": "Weijun Liu",
+      "title": "基于node.js与pomelo的消息推送平台",
+      "abstract": [
+        "The topic will cover a short introduction of pomelo framework, and new features since V0.2.",
+        "Then, we'll introduce our online message push platform, which is implemented in pomelo.  We will talk about the architecture, design detail, features, performance issues of our message platform, etc."
+      ]
+    },
+    {
+      "id": "andrerod",
+      "full_name": "André Rodrigues",
+      "title": "Build a Photobooth App with Azure and Kinect",
+      "abstract": [
+        ""
+      ]
+    },
+    {
+      "id": "lulinqing",
+      "full_name": "Linqing Lu",
+      "title": "Node.js on the road, on the cloud",
+      "abstract": [
+        "Talk plan:",
+        "A- Node.js roadmap from Bert/Ben in Node.js core team(details coming around Sep).",
+        "B- Hosting Node.js apps with PaaS and MBaaS."
+      ]
+    },
+    {
+      "id": "be5invis",
+      "full_name": "Belleve Invis",
+      "title": "On Harmony",
+      "abstract": [
+        "- Introduce proposals of ECMAScript-Harmony (abbr. ES-harmony)",
+        "- Deep analysis of selected new features (incl. Classes, Proxies, Module system and Generators)",
+        "- Discussion about script language design and optimization"
+      ]
+    },
+    {
+      "id": "undoZen",
+      "full_name": "Anson Yu Wang",
+      "title": "Implementing BigPipe in Node.js",
+      "abstract": [
+        "I'll show you what BigPipe is, when to use it and how you can implement it using node.js."
+      ]
+    }
+  ],
+  "breaks": [
+    { 
+      "id": "coffee",
+      "full_name": "Coffee Break",
+      "title": "Lets have some coffee"
+    },
+    {
+      "id": "lunch",
+      "full_name": "Lunch Break",
+      "title": "Lets have some lunch"
+    },
+    {
+      "id": "party",
+      "full_name": "After Party @ 车库咖啡",
+      "url": "http://www.chekucafe.com/",
+      "title": "Join us for food, drinks and conversation.",
+      "abstract": [
+        "TODO: Directions"
+      ]
+    }
+  ],
+  "workshops": [
+    {
+      "id": "nodeschool",
+      "full_name": "nodeschool.io Workshop",
+      "url": "http://nodeschool.io",
+      "title": "with James Halliday (@substack)",
+      "abstract": [
+        "A hands-on workshop with James Halliday (@substack), learning Node.js using the new site nodeschool.io."
+      ]
+    },
+    {
+      "id": "lightning",
+      "full_name": "Lightning Talks",
+      "url": "http://en.wikipedia.org/wiki/Lightning_talk",
+      "title": "Come share with us! Sign up to give a 5 minute talk on a topic of your choice.",
+      "abstract": [
+        "Come share with us! Sign up to give a 5 minute talk on a topic of your choice."
+      ]
+    }
+  ],
+  "sponsors": [
+    {
+      "id": "teambition",
+      "full_name": "teambition",
+      "url": "http://teambition.com"
+    },
+    {
+      "id": "microsoft",
+      "full_name": "Microsoft",
+      "url": "http://microsoft.com"
+    },
+    {
+      "id": "qiniu",
+      "full_name": "Qiniu",
+      "url": "http://qiniu.com"
+    },
+    {
+      "id": "github",
+      "full_name": "GitHub",
+      "url": "http://github.com"
+    },
+    {
+      "id": "baidu",
+      "full_name": "baidu",
+      "url": "http://baidu.com"
+    },
+    {
+      "id": "netease",
+      "full_name": "Netease",
+      "url": "http://netease.com"
+    },
+    {
+      "id": "wiredcraft",
+      "full_name": "Wiredcraft", 
+      "url": "http://wiredcraft.com"
+    },
+    {
+      "id": "turing",
+      "full_name": "Turing", 
+      "url": "http://www.ituring.com.cn"
+    }
+  ],
+  "organizers": [
+    {
+      "id": "thoward",
+      "full_name": "Troy Howard"
+    },
+    {
+      "id": "goddyzhao",
+      "full_name": "Goddy Zhao"
+    },
+    {
+      "id": "glennblock",
+      "full_name": "Glenn Block"
+    },
+    {
+      "id": "fengmk2",
+      "full_name": "MK2"
+    },
+    {
+      "id": "hunvreus",
+      "full_name": "Ronan Berder"
+    },
+    {
+      "id": "jacksontian",
+      "full_name": "Jackson Tian"
+    }
+  ],
+  "i18n": [
+      {
+      "key": "lang-widget",
+      "zh-cn": "EN",
+      "en-us": "中文"
+      },
+      {
+      "key": "conf-name",
+      "zh-cn": "京JS",
+      "en-us": "JingJS"
+      },
+      {
+      "key": "conf-date",
+      "zh-cn": "2013年11月9-10日, 北京",
+      "en-us": "2013 NOV 9-11, BEIJING"
+      },
+      {
+      "key": "conf-about",
+      "zh-cn": "关于技术大会",
+      "en-us": "About the conference"
+      },
+      {
+      "key": "conf-tagline",
+      "zh-cn": "一个为中国JavaScript研发者社区举办的国际性技术大会",
+      "en-us": "A conference for the JavaScript community in China"
+      },
+      {
+      "key": "conf-description",
+      "en-us": "京JS 2013 is a two day conference focused on JavaScript and Node.js technologies. This developer driven event will bring together notable figures from both the Chinese and international JavaScript communities to share their knowledge and passion for JavaScript. The conference will be held in Beijing from November 9-10.",
+      "zh-cn": "京JS 2013 是一场专注于JavaScript和Node.js技术，为期两天的国际性技术大会。届时，大会会邀请国内外的优秀讲师为大家分享在JavaScript和Node.js技术方面的经验。大会将于11月9-10日在北京召开。"
+      },
+      {
+      "key": "conf-preregister",
+      "en-us": "Pre-Register!",
+      "zh-cn": "注册吧！"
+      },
+      {
+      "key": "conf-register-desc",
+      "en-us": "Early-bird tickets will be available soon, but you don't have to wait to get pre-registered.",
+      "zh-cn": "首批入场券即将发售, 同时也给大家带来一个好消息，无需等到正是发售即可提前获得购票资格！"
+      },
+      {
+      "key": "conf-register-form",
+      "en-us": "Sign up below and you'll be among the first to get a ticket.",
+      "zh-cn": "输入您的Email地址 就有机会提前获得购票机会！"
+      },
+      {
+      "key": "conf-social",
+      "en-us": "Follow Us Online",
+      "zh-cn": "在线关注我们"
+      },
+      {
+      "key": "conf-speakers",
+      "en-us": "Speakers",
+      "zh-cn": "讲师"
+      },
+      {
+      "key": "conf-proposals",
+      "en-us": "Call for Proposals",
+      "zh-cn": "期待您的建议"
+      },
+      {
+      "key": "conf-presentations",
+      "en-us": "We are now accepting submissions for presentations. The Call for Proposals will end on September 24th.",
+      "zh-cn": "如果您有意向成为Jing.js的讲师，欢迎在9月24日前与联系我们！"
+      },
+      {
+      "key": "conf-ideas",
+      "en-us": "We'd love to hear your ideas for talks on the many and varied aspects of JavaScript and Node.js. Our favorite topics are those that deliver hard-earned knowledge based on real-world experience and research. Come share with us!",
+      "zh-cn": "我们很愿意听到您在JavaScript和Node.js方面的经验分享。只要您的技术经验均来自于真实产品，并能给大家带来帮助。欢迎前来分享！"
+      },
+      {
+      "key": "conf-action",
+      "en-us": "Go ahead, suggest a speaker or submit a talk!",
+      "zh-cn": "还等什么, 推荐讲师 or 提交演讲话题!"
+      },
+      {
+      "key": "conf-speaker-details",
+      "en-us": "Speaker Details",
+      "zh-cn": "演讲者详细信息"
+      },
+      {
+      "key": "conf-speaker-name",
+      "en-us": "Name",
+      "zh-cn": "姓名"
+      },
+      {
+      "key": "conf-speaker-email",
+      "en-us": "Email Address",
+      "zh-cn": "Email地址"
+      },
+      {
+      "key": "conf-speaker-note",
+      "en-us": "BTW, if you hate filling out forms in webpages, you can submit via GitHub or email your proposal to troy@jingjs.org.",
+      "zh-cn": "顺便提一下，要是您讨厌填写表单, 你也可以通过Github提交或者把你的建议email给troy@jingjs.org。"
+      },
+      {
+      "key": "conf-talk-detail",
+      "en-us": "Talk Details",
+      "zh-cn": "话题详情"
+      },
+      {
+      "key": "conf-talk-title",
+      "en-us": "Title",
+      "zh-cn": "标题"
+      },
+      {
+      "key": "conf-talk-duration",
+      "en-us": "Duration",
+      "zh-cn": "时长"
+      },
+      {
+      "key": "conf-talk-duration-5",
+      "en-us": "5 minutes (lightning talk)",
+      "zh-cn": "5 分钟 (快速分享)"
+      },
+      {
+      "key": "conf-talk-duration-20",
+      "en-us": "20 minutes",
+      "zh-cn": "20 分钟"
+      },
+      {
+      "key": "conf-talk-duration-40",
+      "zh-cn": "40 分钟",
+      "en-us": "40 minutes"
+      },
+      {
+      "key": "conf-talk-abstract",
+      "en-us": "Abstract",
+      "zh-cn": "大纲"
+      },
+      {
+      "key": "conf-talk-conduct",
+      "en-us": "Yes, I've read the Code of Conduct",
+      "zh-cn": "是的，我已经阅读过 申明文档了"
+      },
+      {
+      "key": "conf-callforsponsors",
+      "en-us": "Call for Sponsors  We are seeking corporate partners to help us create the best conference possible. Please act fast, the time is nigh and sponsorships are limited.  For more information please contact Troy Howard.",
+      "zh-cn": "诚招赞助商  我们正在寻找合适的赞助商一同为大家呈现一场完美的技术大会！赞助商名额有限，请速速与我们联系。  要获悉更多赞助相关信息，请联系Goddy Zhao"
+      },
+      {
+      "key": "conf-sponsors",
+      "en-us": "Sponsors",
+      "zh-cn": "赞助商"
+      },
+      {
+      "key": "conf-team",
+      "en-us": "Organizers",
+      "zh-cn": "大会组织团队"
+      },
+      {
+      "key": "conf-coc",
+      "en-us": "Code of Conduct",
+      "zh-cn": "行为守则"
+      },
+      {
+      "key": "conf-coc-short-title",
+      "en-us": "Short Version",
+      "zh-cn": "简洁版"
+      },
+      {
+      "key": "conf-coc-short",
+      "en-us": "JingJS is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, sexual orientation, disability, physical appearance, body size, race, or religion. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.",
+      "zh-cn": "京JS 旨在为所有人提供一场平等的技术大会，没有性别、肤色、外表之分，亦没有种族信仰之别。大会不允许参会者有任何形式的和大会宗旨相悖的行为。会场包括演讲过程中不允许有任何骚扰到他人的言语攻击或者照片。参会者一旦被发现此类行为，将被逐出大会现场，概不退还参会费用。"
+      },
+      {
+      "key": "conf-coc-long-title",
+      "en-us": "Long Version",
+      "zh-cn": "完整版"
+      },
+      {
+      "key": "conf-coc-harassment-title",
+      "en-us": "Harassment",
+      "zh-cn": "骚扰"
+      },
+      {
+      "key": "conf-coc-harassment",
+      "en-us": "Harassment includes offensive verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. Participants asked to stop any harassing behavior are expected to comply immediately.",
+      "zh-cn": "骚扰包括在公共场合有带性别、肤色、外表、信仰倾向的无礼的言语评论、色情图片、故意恐吓、盯梢、跟踪、骚扰摄影或者录音、持续性地打断演讲者、不恰当的身体接触以及不受欢迎的性倾向。参会者必须遵守大会守则，不出现上述行为。"
+      },
+      {
+      "key": "conf-coc-exhibitors-title",
+      "en-us": "Exhibitors & Sponsors",
+      "zh-cn": "参展者 & 赞助商"
+      },
+      {
+      "key": "conf-coc-exhibitors",
+      "en-us": "Exhibitors in the expo hall, sponsor or vendor booths, or similar activities are also subject to the anti-harassment policy. In particular, exhibitors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.",
+      "zh-cn": "所有会场内的参展者、赞助商以及会场工作人员等类似角色的人也都要遵守不能有骚扰他人行为的政策。特别要注意，参展者不应当使用任何带有性色彩的图片和行为。工作人员（包括志愿者)也不应当穿戴任何有性色彩的服饰/制服等。"
+      },
+      {
+      "key": "conf-coc-participants-title",
+      "en-us": "Participants",
+      "zh-cn": "参会者"
+      },
+      {
+      "key": "conf-coc-participants",
+      "en-us": "If a participant engages in harassing behavior, the conference organizers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund. If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified by t-shirts/special badges.",
+      "zh-cn": "如发现有骚扰行为的参会者，大会组织者有权采取以下正当行为予以阻止：对其进行警告、将其逐出会场，并不退还参会费用。如果你被人骚扰或者发现有人被骚扰了，请及时联系我们的工作人员大会工作人员都穿戴有统一的T恤衫和证件。"
+      },
+      {
+      "key": "conf-coc-participants2",
+      "en-us": "Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.",
+      "zh-cn": "大会工作人员也会很乐意帮助参会者联系酒店/会场安保人员、当地警察，阻止这类行为。为参会者提供一个安全的环境。希望你对此能够引起足够的注意。"
+      },
+      {
+      "key": "conf-coc-staff-contact-title",
+      "en-us": "Staff Contact Information",
+      "zh-cn": "大会工作人员信息"
+      },
+      {
+      "key": "conf-coc-staff-contact-name",
+      "en-us": "Troy Howard (English)",
+      "zh-cn": "Goddy Zhao (中文)"
+      },
+      {
+      "key": "conf-coc-staff-contact-email",
+      "en-us": "troy@jingjs.org",
+      "zh-cn": "goddy128@gmail.com"
+      },
+      {
+      "key": "conf-coc-staff-contact-phone",
+      "en-us": "+1 (503) 544-1104",
+      "zh-cn": "+86 135-2401-6368"
+      },
+      {
+      "key": "conf-coc-venue-title",
+      "en-us": "Venue & Social Events",
+      "zh-cn": "会场 & 社交场所"
+      },
+      {
+      "key": "conf-coc-venue",
+      "en-us": "We expect participants to follow these rules at all conference venues and conference-related social events.",
+      "zh-cn": "我们希望参会者能够在所有的大会会场以及相关的社交场所遵守行为守则。"
+      },
+      {
+      "key": "conf-coc-license-title",
+      "en-us": "License",
+      "zh-cn": "许可证"
+      },
+      {
+      "key": "conf-coc-license",
+      "en-us": "This Code of Conduct was forked from the example policy from the Geek Feminism wiki, created by the Ada Initiative and other volunteers, which is under a Creative Commons Zero license.",
+      "zh-cn": "这份行为准则借鉴自Ada Initiative和其他志愿者创建的Geek Feminism wiki示例政策，遵守Creative Commons Zero许可证。"
+      },
+      {
+      "key": "conf-venue-name",
+      "en-us": "Unis Center",
+      "zh-cn": "紫光国际会议中心"
+      },
+      {
+      "key": "conf-venue-addr1",
+      "en-us": "Courtyard 1, Building 10",
+      "zh-cn": "中国北京海淀区"
+      },
+      {
+      "key": "conf-venue-addr2",
+      "en-us": "Zhongguancun East Rd",
+      "zh-cn": "中关村东路"
+      },
+      {
+      "key": "conf-venue-addr3",
+      "en-us": "Haidian District, Beijing, China",
+      "zh-cn": "一号院10号楼"
+      },
+      {
+      "key": "conf-register",
+      "en-us": "Buy a Ticket",
+      "zh-cn": "报名参会"
+      },
+      {
+      "key": "conf-mailinglist",
+      "en-us": "Mailing List",
+      "zh-cn": "邮件列表"
+      },
+      {
+      "key": "conf-mailinglist-form",
+      "en-us": "Sign up for the mailing list to receive updates about the conference.",
+      "zh-cn": "注册到邮件列表获取最新大会消息"
+      },
+      {
+      "key": "conf-subscribe",
+      "en-us": "Subscribe",
+      "zh-cn": "订阅"
+      }
+    ]
+}

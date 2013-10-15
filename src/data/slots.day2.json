@@ -1,0 +1,19 @@
+[
+  { "duration": 20, "talk": "rednaxelafx"},
+  { "duration": 20, "talk": "coderoshi"},
+  { "duration": 40, "talk": "dominictarr"},
+  { "duration": 10, "break": "coffee"},
+  { "duration": 20, "talk": "alyraz"},
+  { "duration": 40, "talk": "oren"},
+  { "duration": 30, "workshop": "lightning"},
+  { "duration": 60, "break": "lunch"},
+  { "duration": 40, "talk": "tongyao"},
+  { "duration": 40, "talk": "johnnymugs"},
+  { "duration": 40, "talk": "kjbekkelund"},
+  { "duration": 20, "break": "coffee"},
+  { "duration": 40, "talk": "ashedryden"},
+  { "duration": 40, "talk": "kennyluck"},
+  { "duration": 20, "break": "coffee"},
+  { "duration": 20, "talk": "fool2fish"},
+  { "duration": 40, "talk": "rongshen"}
+]

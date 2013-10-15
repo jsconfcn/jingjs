@@ -1,0 +1,22 @@
+[
+  { "duration": 20, "talk": "lulinqing"},
+  { "duration": 20, "talk": "kyledrake"},
+  { "duration": 40, "talk": "substack"},
+  { "duration": 10, "break": "coffee"},
+  { "duration": 20, "talk": "jden"},
+  { "duration": 40, "talk": "isaacmao"},
+  { "duration": 30, "workshop": "nodeschool"},
+  { "duration": 60, "break": "lunch"},
+  { "duration": 20, "talk": "woodsrong"},
+  { "duration": 40, "talk": "jakobmattsson"},
+  { "duration": 40, "talk": "mde"},
+  { "duration": 20, "break": "coffee"},
+  { "duration": 20, "talk": "undoZen"},
+  { "duration": 40, "talk": "be5invis"},
+  { "duration": 10, "talk": "xiecc"},
+  { "duration": 40, "talk": "py8765"},
+  { "duration": 10, "break": "coffee"},
+  { "duration": 20, "talk": "andrerod"},
+  { "duration": 40, "talk": "NickCarneiro"},
+  { "duration": 120, "break": "party", "start_time": "2013-11-09T19:00:00+0800" }
+]

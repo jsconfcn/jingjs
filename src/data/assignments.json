@@ -1,0 +1,57 @@
+{
+  "talks": {
+    "40": [
+      "substack",
+      "isaacmao",
+      "jakobmattsson",
+      "mde",
+      "b5invis",
+      "py8765",
+      "NickCarneiro",
+      "dominictarr",
+      "oren",
+      "johnnymugs",
+      "kjbekkelund",
+      "ashedryden",
+      "kennyluck",
+      "rongshen",
+      "tongyao"
+    ],
+    "20": [
+      "ashedryden",
+      "kyledrake",
+      "jden",
+      "alyraz",
+      "rednaxelafx",
+      "woodsrong",
+      "coderoshi",
+      "fool2fish",
+      "lulingqing",
+      "undoZen",
+      "andrerod"
+    ],
+    "10": [
+      "xiecc"
+    ],
+  },
+  "breaks": {
+    "coffee": {
+      "full_name": "Coffee Break",
+      "title": "Lets have some coffee"
+    },
+    "lunch": {
+      "full_name": "Lunch Break",
+      "title": "Lets have some lunch"
+    }
+  },
+  "workshops": {
+    "nodeschool": {
+      "full_name": "nodeschool.io Workshop with James Halliday (@substack)",
+      "title": "A hands-on workshop with James Halliday (@substack), learning Node.js using the new site nodeschool.io."
+    },
+    "lightning": {
+      "full_name": "Lightning Talks",
+      "title": "Come share with us! Sign up to give a 5 minute talk on a topic of your choice."
+    }
+  }
+}

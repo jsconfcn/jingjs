@@ -1200,11 +1200,17 @@ input[type=submit]:hover, .register-button:hover {
   background: #E12E22;
 }
 
+div.front-buttons {
+  margin: 0 auto;
+  width: 35em;
+  min-width: 35em;
+}
+
 .register-button {
   text-align: center;
   font-weight: 700;
   /*margin: 0 auto;*/
-  margin: 0 10px;
+  margin: 5;
   min-width: 9em;
   width: 9em;
   /*display: block;*/
@@ -1256,13 +1262,11 @@ input[type=submit]:hover, .register-button:hover {
   input[type=submit] {
     width: 100%;
   }
+  div.front-buttons {
+    min-width: 15em;
+    width: 15em;
+  }
   .register-button {
     width: 100%;
   }
-}
-
-div.front-buttons {
-  margin: 0 auto;
-  width: 35em;
-  min-width: 35em;
 }

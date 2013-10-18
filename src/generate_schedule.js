@@ -5,7 +5,7 @@ var fs = require('fs');
 slots_day1 = require('./data/slots.day1.json');
 slots_day2 = require('./data/slots.day2.json');
 
-function hashify(items) { 
+function hashify(items) {
   var hash = {};
   for(var item in items) {
     item = items[item];
@@ -44,13 +44,12 @@ function Day(date, slots, speakers, workshops, breaks) {
     schedule.segments = [];
     
     var nowish = this.start_time;
-    
+
     for(var slot_index in this.slots) {
       slot = this.slots[slot_index];
       
       var segment = {};
       schedule.segments.push(segment);
-      
       if (slot.start_time){
         console.log('found start time: ' + slot.start_time);
         segment.start_time = moment(slot.start_time).tz('Asia/Shanghai');
@@ -76,11 +75,11 @@ function Day(date, slots, speakers, workshops, breaks) {
       if (slot['break']) {
         segment['type'] = 'break';
         segment.details = this.breaks[slot['break']];
-      }            
+      }
       else if (slot.talk) {
         segment['type'] = 'talk';
         segment.details = this.speakers[slot.talk];
-        segment.details['url'] = "https://github.com/" + segment.details['id']
+        segment.details['url'] = "https://github.com/" + segment.details['id'];
       }
       else if (slot.workshop) {
         segment['type'] = 'workshop';
@@ -88,7 +87,7 @@ function Day(date, slots, speakers, workshops, breaks) {
       }
     }
     return schedule;
-  }
+  };
 }
 
 var days = [
@@ -118,9 +117,9 @@ for (var i in days) {
 schedule = { "schedule": schedule };
 
 fs.writeFile("./data/schedule.json", JSON.stringify(schedule, null, 2), function(err) {
-    if(err) {
-        console.log(err);
-    } else {
-        console.log("Wrote new schedule.json...");
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("Wrote new schedule.json...");
+  }
 });

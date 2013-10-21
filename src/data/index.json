@@ -321,6 +321,11 @@
       "id": "turing",
       "full_name": "Turing", 
       "url": "http://www.ituring.com.cn"
+    },
+    {
+      "id": "broadview",
+      "full_name": "BroadView",
+      "url": "http://www.broadview.com.cn"
     }
   ],
   "organizers": [

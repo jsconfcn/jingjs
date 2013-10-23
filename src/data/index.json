@@ -28,15 +28,6 @@
       ]
     },
     {
-      "id": "ashedryden",
-      "full_name": "Ashe Dryden",
-      "title": "",
-      "abstract": [
-        "",
-        ""
-      ]
-    },
-    {
       "id": "xiecc",
       "full_name": "Charlie Crane",
       "title": "pomelo欧洲之旅 (Pomelo European Trip)",
@@ -278,6 +269,15 @@
       "title": "Come share with us! Sign up to give a 5 minute talk on a topic of your choice.",
       "abstract": [
         "Come share with us! Sign up to give a 5 minute talk on a topic of your choice."
+      ]
+    },
+    {
+      "id": "tbd",
+      "full_name": "TBD",
+      "url": "#",
+      "title": "TBD",
+      "abstract": [
+        ""
       ]
     }
   ],

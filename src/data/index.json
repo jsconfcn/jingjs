@@ -318,9 +318,9 @@
       "url": "http://wiredcraft.com"
     },
     {
-      "id": "sunteng",
-      "full_name": "sunteng", 
-      "url": "http://www.sunteng.com"
+      "id": "broadview",
+      "full_name": "BroadView",
+      "url": "http://www.broadview.com.cn"
     },
     {
       "id": "turing",
@@ -328,9 +328,14 @@
       "url": "http://www.ituring.com.cn"
     },
     {
-      "id": "broadview",
-      "full_name": "BroadView",
-      "url": "http://www.broadview.com.cn"
+      "id": "ptpress",
+      "full_name": "ptpress",
+      "url": "http://www.ptpress.com.cn/"
+    },
+    {
+      "id": "sunteng",
+      "full_name": "sunteng", 
+      "url": "http://www.sunteng.com"
     }
   ],
   "organizers": [

@@ -229,6 +229,13 @@
       "abstract": [
         "I'll show you what BigPipe is, when to use it and how you can implement it using node.js."
       ]
+    },
+    {
+      "id": "PinZhang",
+      "full_name": "Zhang Pin",
+      "title": "Firefox OS - Bring the Open Web to Mobile Devices",
+      "abstract": [
+      ]
     }
   ],
   "breaks": [
@@ -246,6 +253,15 @@
       "id": "party",
       "full_name": "After Party @ 车库咖啡",
       "url": "http://www.chekucafe.com/",
+      "title": "Join us for food, drinks and conversation.",
+      "abstract": [
+        "TODO: Directions"
+      ]
+    },
+    {
+      "id": "party2",
+      "full_name": "After Party @ Pyro Pizza",
+      "url": "http://www.pyrobeijing.com/",
       "title": "Join us for food, drinks and conversation.",
       "abstract": [
         "TODO: Directions"
@@ -311,6 +327,11 @@
       "id": "netease",
       "full_name": "Netease",
       "url": "http://netease.com"
+    },
+    {
+      "id": "mozilla",
+      "full_name": "Mozilla",
+      "url": "http://mozilla.org"
     },
     {
       "id": "wiredcraft",

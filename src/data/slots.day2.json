@@ -11,9 +11,10 @@
   { "duration": 40, "talk": "johnnymugs"},
   { "duration": 40, "talk": "kjbekkelund"},
   { "duration": 20, "break": "coffee"},
-  { "duration": 40, "workshop": "tbd"},
+  { "duration": 40, "talk": "PinZhang"},
   { "duration": 40, "talk": "jakobmattsson"},
   { "duration": 20, "break": "coffee"},
   { "duration": 20, "talk": "fool2fish"},
-  { "duration": 40, "talk": "rongshen"}
+  { "duration": 40, "talk": "rongshen"},
+  { "duration": 120, "break": "party2", "start_time": "2013-11-09T21:00:00+0800" }
 ]

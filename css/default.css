@@ -1003,7 +1003,8 @@ margin-bottom: 5px;
 section.map {
   min-height: 400px;
   background-color: #2E353B;
-  background-image: url('http://api.tiles.mapbox.com/v3/jamesford.map-hcxuhohe/pin-m-star+F14E42(116.326015,39.994),pin-m-star(116.346,39.991)/116.312283,39.996,14/1280x400.png');
+/*  background-image: url('http://api.tiles.mapbox.com/v3/jamesford.map-hcxuhohe/pin-m-star+F14E42(116.326015,39.994),pin-m-star(116.346,39.991)/116.312283,39.996,14/1280x400.png'); */
+  background-image: url('../img/map.png');
   background-size: auto 400px;
   background-position: 50%;
   background-repeat: no-repeat;

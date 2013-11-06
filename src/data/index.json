@@ -134,10 +134,10 @@
     {
       "id": "NickCarneiro",
       "full_name": "Nick Carneiro",
-      "title": "Building Fast and Maintainable JavaScript Web Apps with Google Closure",
+      "title": "A Survey of Client-side Data Visualization",
       "abstract": [
-        "Since its launch in 2011, Indeed's Resume Search product has grown exponentially to contain millions of resumes. This talk explains how Indeed Engineers used Google Closure to keep the product fast and maintainable over two years. I'll explain how the Closure Library addresses various design flaws encountered while building the world's largest job search engine.",
-        "Topics Covered: Project structure, The Closure compiler, Event-driven design patterns, Unit testing, Closure templates, Speed optimizations"
+        "The rise of data-driven product management has brought data visualization to the fore in recent years. JavaScript developers are uniquely positioned to take advantage of high demand for data visualization and new browser features. In this talk I cover the history of data visualization, the best tools available today, and what's next. ",
+        "Topics Covered: Best and worst practices, modern datavis tools (D3, Google Charts), performance concerns"
       ]
     },
     {

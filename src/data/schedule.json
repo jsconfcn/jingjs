@@ -167,7 +167,8 @@
           "details": {
             "id": "substack",
             "full_name": "James Halliday",
-            "title": "",
+            "title": "the wizard of moduletopia",
+            "slide": "http://t.cn/zRYsZZ5",
             "abstract": [
               "",
               ""
@@ -220,6 +221,7 @@
             "id": "undoZen",
             "full_name": "Anson Yu Wang",
             "title": "Implementing BigPipe in Node.js",
+            "slide": "http://t.cn/zRTd7A3",
             "abstract": [
               "I'll show you what BigPipe is, when to use it and how you can implement it using node.js."
             ],
@@ -237,6 +239,7 @@
             "id": "be5invis",
             "full_name": "Belleve Invis",
             "title": "On Harmony",
+            "slide": "http://t.cn/zRYwlkg",
             "abstract": [
               "- Introduce proposals of ECMAScript-Harmony (abbr. ES-harmony)",
               "- Deep analysis of selected new features (incl. Classes, Proxies, Module system and Generators)",
@@ -256,6 +259,7 @@
             "id": "xiecc",
             "full_name": "Charlie Crane",
             "title": "pomelo欧洲之旅 (Pomelo European Trip)",
+            "slide": "http://t.cn/zRTr9V4",
             "abstract": [
               "Discuss the experience on attending and speaking at JsConf.eu and LXJS."
             ],
@@ -273,6 +277,7 @@
             "id": "py8765",
             "full_name": "Weijun Liu",
             "title": "基于node.js与pomelo的消息推送平台",
+            "slide": "http://t.cn/zRTr9VU",
             "abstract": [
               "The topic will cover a short introduction of pomelo framework, and new features since V0.2.",
               "Then, we'll introduce our online message push platform, which is implemented in pomelo.  We will talk about the architecture, design detail, features, performance issues of our message platform, etc."
@@ -452,6 +457,7 @@
             "id": "oren",
             "full_name": "Oren Golan",
             "title": "Don't Panic - The Hitchhiker's Guide to Node",
+            "slide": "http://t.cn/zRT1hDL",
             "abstract": [
               "Full-stack JavaScript application opens up new possibilities but it also adds a challenge of making many in-flight decisions, such as the following: Should we use a web framework? Which one? How to organize our client-side codebase? Should we write in Object Oriented or Functional style?",
               "In this talk we won't spend time on fluff and dive right in to a real codebase. I'll share code and practices that are applicable immediately to any JavaScript developer."
@@ -500,6 +506,7 @@
             "id": "tongyao",
             "full_name": "Yao Tong",
             "title": "实时APP时代与云端一体开发框架 - Clouda",
+            "slide": "http://t.cn/zRTd866",
             "abstract": [
               "",
               ""
@@ -566,6 +573,7 @@
             "id": "PinZhang",
             "full_name": "Zhang Pin",
             "title": "Firefox OS - Bring the Open Web to Mobile Devices",
+            "slide": "http://vdisk.weibo.com/s/544GFEuUAGN",
             "abstract": [],
             "url": "https://github.com/PinZhang"
           },
@@ -631,6 +639,7 @@
             "id": "jacobbubu",
             "full_name": "沈嵘 (Rong Shen)",
             "title": "Advanced Grunt.js",
+            "slide": "http://t.cn/zRTt5dD",
             "abstract": [
               "我是一个Grunt的重度用户，Nextday的Web Site和Backend API（预计在8月中发布）都是基于Grunt进行CI的。",
               "本次话题将以一个静态站点的生成和部署为实例，讲解Grunt的高级用法。同时，也便于初次使用的用户能够通过Copy & Paste完成一些常见的任务。"

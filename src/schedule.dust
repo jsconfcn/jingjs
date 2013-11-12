@@ -17,7 +17,7 @@
             {?details}
               {#details}
                 <h2>{?url}<a href="{url}">{full_name}</a>{:else}{full_name}{/url}</h2>
-                <h3>{?title}{title}{:else}TBD{/title}</h3>
+                <h3>{?slide}<a href="{slide}">{/slide}{?title}{title}{:else}TBD{/title}{?slide}</a>{/slide}</h3>
                 {?abstract}
                   <span class="abstract">
                   {#abstract}

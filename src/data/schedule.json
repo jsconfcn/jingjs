@@ -628,14 +628,14 @@
             "zh": "下午5点20"
           },
           "details": {
-            "id": "rongshen",
+            "id": "jacobbubu",
             "full_name": "沈嵘 (Rong Shen)",
             "title": "Advanced Grunt.js",
             "abstract": [
               "我是一个Grunt的重度用户，Nextday的Web Site和Backend API（预计在8月中发布）都是基于Grunt进行CI的。",
               "本次话题将以一个静态站点的生成和部署为实例，讲解Grunt的高级用法。同时，也便于初次使用的用户能够通过Copy & Paste完成一些常见的任务。"
             ],
-            "url": "https://github.com/rongshen"
+            "url": "https://github.com/jacobbubu"
           },
           "type": "talk"
         },
